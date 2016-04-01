@@ -19,11 +19,6 @@ namespace UnityStandardAssets._2D
 
         private void Update()
         {
-            if (!m_Jump)
-            {
-                // Read the jump input in Update so button presses aren't missed.
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-            }
         }
 
 
@@ -31,10 +26,9 @@ namespace UnityStandardAssets._2D
         {
             // Read the inputs.
             //Check horizontal speed based on inputs
-            bool left = CrossPlatformInputManager.GetButton("Left");
-            bool right = CrossPlatformInputManager.GetButton("Right");
-            //hsp is the horizontal speed given as 1 or -1 depending on the buttons pressed
-            float hsp = (left ? -1 : 0) + (right ? 1 : 0);
+            float hsp = Input.GetAxis("Horizontal");
+
+            m_Jump = Input.GetButtonDown("Jump");
             // Pass all parameters to the character control script.
             m_Character.Move(hsp, m_Jump);
             m_Jump = false;

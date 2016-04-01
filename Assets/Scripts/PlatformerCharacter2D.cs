@@ -42,11 +42,6 @@ namespace UnityStandardAssets._2D
 
             transform.rotation = Quaternion.Euler(0, 0, 0);
 
-            if(m_Grounded)
-            {
-                makeJump(); //Always jumping when we can
-            }
-
         }
 
 		public void Move(float move, bool jump)
@@ -57,6 +52,11 @@ namespace UnityStandardAssets._2D
             {
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move * m_MaxSpeed, m_Rigidbody2D.velocity.y);
+            }
+
+            if (m_Grounded &&jump)
+            {
+                makeJump();
             }
 
             //If the player should jump ...
