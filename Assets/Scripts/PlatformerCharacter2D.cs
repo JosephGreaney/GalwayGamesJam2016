@@ -35,13 +35,16 @@ public class PlatformerCharacter2D : Entity
 
     private void FixedUpdate()
     {
-        m_Grounded = false;
+        
         // This is used to check if the feet of the player are touching ground.
         Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
                 m_Grounded = true;
+            else
+                m_Grounded = false;
+            Debug.Log("Player Grounded: " + m_Grounded);
         }
 
         transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -53,7 +56,7 @@ public class PlatformerCharacter2D : Entity
         // Check if the vertical speed will be below the limit
         // Only control the player if grounded or airControl is turned on
         moving = (Mathf.Abs(move) < 0.5f) ? false : true;
-        base.Move(m_Grounded, jump);
+        base.Move(m_Grounded, jump, m_Rigidbody2D);
         //Debug.Log("move value: " + move);
         if (m_Grounded || m_AirControl)
         {

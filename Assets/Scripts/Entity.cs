@@ -14,7 +14,8 @@ public class Entity : MonoBehaviour
     public int damage;
     protected Animator anim;
     protected bool moving;
-
+    protected bool falling;
+    protected bool rising;
 
     int runHash = Animator.StringToHash("RunnerAnimation");
     int standHash = Animator.StringToHash("Standing");
@@ -43,24 +44,43 @@ public class Entity : MonoBehaviour
         print(type + " ID: " + id + " attacked\n");
     }
 
-    protected void Move(bool grounded, bool jump)
+    protected void Move(bool grounded, bool jump, Rigidbody2D rigid)
     {
-
-        anim.SetBool("moving", false);
-        if (moving && !jump && grounded)
+        
+        if (rigid.velocity.y == 0)
         {
-            // Debug.Log(type + " ID: " + id + " Moving");
-            anim.SetBool("moving", moving);
-        }
-        else if(jump && grounded)
-        {
+            print(rigid.velocity.y);
+            rising = false;
+            falling = false;
             
-            anim.SetBool("jumping", true);
-            // anim.SetTrigger(standHash);
-            //Debug.Log("Animation stopping");
-        }else if(!jump && grounded)
+        }else if (rigid.velocity.y < 0)
         {
-            anim.SetBool("jumping", false);
+            rising = false;
+            falling = true;
+        }else
+        {
+            falling = false;
+            rising = true;
+        }
+           
+        anim.SetBool("moving", moving);
+        if (!grounded)
+        {
+            if (falling)
+            {
+                anim.SetBool("falling", true);
+                anim.SetBool("rising", false);
+            }else if(rising)
+            {
+                anim.SetBool("falling", false);
+                anim.SetBool("rising", true);
+            }
+
+
+        }else
+        {
+            anim.SetBool("falling", false);
+            anim.SetBool("rising", false);
         }
     }
 }
