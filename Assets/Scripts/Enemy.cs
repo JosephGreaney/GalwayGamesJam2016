@@ -7,15 +7,19 @@ public class Enemy : Entity {
     private bool playerSeen;                 // if the player has been seen or not
     private Rigidbody2D m_RigidBody2D;       // the enemies rigidbody2d
     private bool m_FacingRight;
-    
-    public float movespeed = 4f;       // the movespeed of the enemy
-    public float maxDistance = 2f;       // maximum distance that the enemy will stay from the player
+
+    protected float distance;                // the distance to the player
+
+    public float fireRange = 2f;
+    public float movespeed = 4f;             // the movespeed of the enemy
+    public float maxDistance = 2f;           // maximum distance that the enemy will stay from the player
 
 	// Use this for initialization
 	void Start ()
     {
         m_FacingRight = true;
 	    player = GameObject.FindGameObjectWithTag("Player");
+        distance = fireRange * 2;
     }
 	
 	// Update is called once per frame
@@ -53,7 +57,7 @@ public class Enemy : Entity {
      */
     void moveTowards(Vector3 destination)
     {
-        float distance = destination.x - transform.position.x;
+        distance = destination.x - transform.position.x;
         float dir = Mathf.Sign(distance);
 
         if (dir == 1) //Facing right
@@ -64,5 +68,12 @@ public class Enemy : Entity {
         if (distance > maxDistance || distance < -maxDistance)
             transform.position += new Vector3(dir, 0, 0) * Time.deltaTime * movespeed;
 
+    }
+
+
+    protected bool PlayerInRange()
+    {
+        distance = player.transform.position.x - transform.position.x;
+        return distance <= fireRange ? true : false;
     }
 }

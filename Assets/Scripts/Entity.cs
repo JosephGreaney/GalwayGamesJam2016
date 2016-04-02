@@ -54,7 +54,6 @@ public class Entity : MonoBehaviour
         }
         else if(jump && grounded)
         {
-            
             anim.SetBool("jumping", true);
             // anim.SetTrigger(standHash);
             //Debug.Log("Animation stopping");
