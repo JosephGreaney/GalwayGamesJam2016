@@ -6,6 +6,8 @@ using UnityEngine;
  */
 public class Camera2DFollow : MonoBehaviour
 {
+
+    public float xOffset, yOffset, zOffset;
     public Transform target;
     public float damping = 1;
     public float lookAheadFactor = 3;
@@ -13,6 +15,7 @@ public class Camera2DFollow : MonoBehaviour
     public float lookAheadMoveThreshold = 0.1f;
 
     private float m_OffsetZ;
+    
     private Vector3 m_LastTargetPosition;
     private Vector3 m_CurrentVelocity;
     private Vector3 m_LookAheadPos;
@@ -42,8 +45,8 @@ public class Camera2DFollow : MonoBehaviour
         {
             m_LookAheadPos = Vector3.MoveTowards(m_LookAheadPos, Vector3.zero, Time.deltaTime*lookAheadReturnSpeed);
         }
-
-        Vector3 aheadTargetPos = target.position + m_LookAheadPos + Vector3.forward*m_OffsetZ;
+        Vector3 cameraPosition = new Vector3(target.position.x + xOffset, target.position.y + yOffset, target.position.z + zOffset);
+        Vector3 aheadTargetPos = cameraPosition + m_LookAheadPos + Vector3.forward*m_OffsetZ;
         Vector3 newPos = Vector3.SmoothDamp(transform.position, aheadTargetPos, ref m_CurrentVelocity, damping);
 
         transform.position = newPos;
