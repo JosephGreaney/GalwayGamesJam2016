@@ -9,7 +9,7 @@ namespace UnityStandardAssets._2D
     {
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
-        private int warpDest = -1;  // warpDest is -1 until pressed
+        private bool m_Attack;
 
 
         private void Awake()
@@ -26,22 +26,14 @@ namespace UnityStandardAssets._2D
         private void FixedUpdate()
         {
             // Read the inputs.
-            // Check horizontal speed based on inputs
+            //Check horizontal speed based on inputs
             float hsp = Input.GetAxis("Horizontal");
 
             m_Jump = Input.GetButtonDown("Jump");
-
-            // Check if any warp buttons are pressed
-            if (Input.GetButtonDown("Past"))
-                warpDest = 0;
-            else if (Input.GetButtonDown("Medieval"))
-                warpDest = 1;
-            else if (Input.GetButtonDown("Future"))
-                warpDest = 2;
-
+            m_Attack = Input.GetButtonDown("Attack");
             // Pass all parameters to the character control script.
-            m_Character.Move(hsp, m_Jump, warpDest);
-            warpDest = -1;
+            m_Character.Move(hsp, m_Jump);
+            m_Character.Attack(m_Attack);
             m_Jump = false;
         }
     }
