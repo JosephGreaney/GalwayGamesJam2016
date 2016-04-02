@@ -8,6 +8,7 @@ public class Loader : MonoBehaviour
 {
 
     public GameObject gameManager;      //GameManager prefab
+    public GameObject soundManager;     //SoundManager prefab
 
     /**
      *  Awake is used to instantiate game objects
@@ -17,5 +18,7 @@ public class Loader : MonoBehaviour
         // Check if GameManager has already been instantiated
         if (GameManager.instance == null)
             Instantiate(gameManager);
+        if (SoundManager.instance == null)
+            Instantiate(soundManager);
     }
 }
