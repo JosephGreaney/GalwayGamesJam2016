@@ -4,25 +4,25 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlatformerCharacter2D : MonoBehaviour
+
+public class PlatformerCharacter2D : Entity
 {
     [SerializeField] private float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
     [SerializeField] private float m_JumpForce = 600f;                  // Amount of force added when the player jumps.
     [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
     [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
-        
+    public float zoneDistance = 500;    // The distance between each zone in the level
+
     private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
+    private bool m_Attacking;
+
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
     private int currZone = 1;           // The current zone that the player is in
-
-    private int keys = 0;
-
-    public float zoneDistance = 500;    // The distance between each zone in the level
 
     private void Awake()
     {
@@ -47,9 +47,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 
     }
 
-	public void Move(float move, bool jump, int warpDest)
-	{
-		// Check if the vertical speed will be below the limit
+    public void Move(float move, bool jump, int warpDest)
+    {
+        // Check if the vertical speed will be below the limit
         // Only control the player if grounded or airControl is turned on
         if (m_Grounded || m_AirControl)
         {
@@ -57,7 +57,7 @@ public class PlatformerCharacter2D : MonoBehaviour
             m_Rigidbody2D.velocity = new Vector2(move * m_MaxSpeed, m_Rigidbody2D.velocity.y);
         }
 
-        if (m_Grounded &&jump)
+        if (m_Grounded && jump)
         {
             makeJump();
         }
@@ -67,7 +67,7 @@ public class PlatformerCharacter2D : MonoBehaviour
         {
             // ... flip the player.
             Flip();
-                
+
         }
         // Otherwise if the input is moving the player left and the player is facing right...
         else if (move < 0 && m_FacingRight)
@@ -76,10 +76,45 @@ public class PlatformerCharacter2D : MonoBehaviour
             Flip();
         }
 
+        // If a warp destination has been set
         if (warpDest != -1)
+            Warp(warpDest);
+    }
+
+    /**
+     *  This function allows the player to warp between time zones
+     *  based on the y-axis
+     */
+    void Warp(int destination)
+    {
+        int warpTo = destination - currZone;
+        // Where the player will be warped to.
+        Vector3 targetDest = new Vector3(transform.position.x, (transform.position.y + (warpTo * zoneDistance)), transform.position.z);
+        
+        // Check if the destination is unoccupied
+        if (!CheckIfOccupied(targetDest))
         {
-            warp(warpDest);
+            // If unoccupied move to that position
+            gameObject.transform.position = targetDest;
+            currZone = destination;
         }
+        else
+        {
+            Debug.Log("Collided");
+        }
+    }
+
+    /**
+     *  Check if a space in the world is occupied by any colliders
+     */
+    bool CheckIfOccupied(Vector3 targetDest)
+    {
+        bool occupied = false;
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(targetDest, 0.5f);
+        // If you have collided with something
+        if (colliders.Length > 0)
+            occupied = true;
+        return occupied;
     }
 
     private void Flip()
@@ -96,11 +131,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("PickUp"))
-        {
-            other.gameObject.SetActive(false);
-            keys++;
-        }
     }
 
     void makeJump()
@@ -111,41 +141,9 @@ public class PlatformerCharacter2D : MonoBehaviour
         m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
     }
 
-    /**
-        *  This function allows the player to warp between time zones
-        *  based on the y-axis.
-        */
-    void warp(int destination)
+    public void Attack(bool m_Attack)
     {
-        int warpTo = destination - currZone;
-        // Where the player will be warped to.
-        Vector3 targetDest = new Vector3(transform.position.x, (transform.position.y + (warpTo * zoneDistance)), transform.position.z);
-        
-        // Check if the destination is unoccupied
-        if (!checkIfOccupied(targetDest))
-        {
-            // If unoccupied move to that position
-            gameObject.transform.position = new Vector3(transform.position.x, (transform.position.y + (warpTo * zoneDistance)), transform.position.z);
-            currZone = destination;
-        }
-        else
-        {
-            Debug.Log("Collided");
-        }
-        
-    }
-
-    /**
-     *  Check if a space is occupied in the world by any colliders
-     */
-    bool checkIfOccupied(Vector3 targetDest)
-    {
-        bool occupied = false;
-         Collider2D [] colliders = Physics2D.OverlapCircleAll(targetDest, 0.5f);
-        //You have collided with something
-        if (colliders.Length > 0)
-            occupied = true;
-
-        return occupied;
+        if(m_Attack && !m_Attacking)
+            base.Attack();
     }
 }
