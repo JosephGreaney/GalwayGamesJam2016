@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: aa69e40859962f6429050c62d4f23c18
+timeCreated: 1459591306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RobotBoyIdleSprite_0
+    21300002: RobotBoyIdleSprite_1
+    21300004: RobotBoyIdleSprite_2
+    21300006: RobotBoyIdleSprite_3
+    21300008: RobotBoyIdleSprite_4
+    21300010: RobotBoyIdleSprite_5
+    21300012: RobotBoyIdleSprite_6
+    21300014: RobotBoyIdleSprite_7
+    21300016: RobotBoyIdleSprite_8
+    21300018: RobotBoyIdleSprite_9
+    21300020: RobotBoyIdleSprite_10
+    21300022: RobotBoyIdleSprite_11
+    21300024: RobotBoyIdleSprite_12
+    21300026: RobotBoyIdleSprite_13
+    21300028: RobotBoyIdleSprite_14
+    21300030: RobotBoyIdleSprite_15
+    21300032: RobotBoyIdleSprite_16
+    21300034: RobotBoyIdleSprite_17
+    21300036: RobotBoyIdleSprite_18
+    21300038: RobotBoyIdleSprite_19
+    21300040: RobotBoyIdleSprite_20
+    21300042: RobotBoyIdleSprite_21
+    21300044: RobotBoyIdleSprite_22
+    21300046: RobotBoyIdleSprite_23
+    21300048: RobotBoyIdleSprite_24
+    21300050: RobotBoyIdleSprite_25
+    21300052: RobotBoyIdleSprite_26
+    21300054: RobotBoyIdleSprite_27
+    21300056: RobotBoyIdleSprite_28
+    21300058: RobotBoyIdleSprite_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RobotBoyIdleSprite_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1785
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 110}
+        - {x: -43, y: 102}
+        - {x: -44, y: 98}
+        - {x: -44, y: -47}
+        - {x: -43, y: -61}
+        - {x: -33, y: -107}
+        - {x: -28, y: -110}
+        - {x: 44, y: -110}
+        - {x: 44, y: 110}
+    - name: RobotBoyIdleSprite_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1785
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 110}
+        - {x: -38, y: 110}
+        - {x: -44, y: 96}
+        - {x: -44, y: -104}
+        - {x: -36, y: -110}
+        - {x: 22, y: -110}
+        - {x: 15, y: -98}
+        - {x: 44, y: 14}
+        - {x: 44, y: 105}
+    - name: RobotBoyIdleSprite_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1784
+        width: 88
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 110.5}
+        - {x: -30, y: 110.5}
+        - {x: -42, y: 95.5}
+        - {x: -44, y: 93.5}
+        - {x: -44, y: -88.5}
+        - {x: -40, y: -110.5}
+        - {x: 31, y: -110.5}
+        - {x: 44, y: -48.5}
+        - {x: 44, y: 96.5}
+        - {x: 34, y: 108.5}
+    - name: RobotBoyIdleSprite_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1784
+        width: 90
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 110.5}
+        - {x: -45, y: 97.5}
+        - {x: -45, y: -82.5}
+        - {x: -40, y: -110.5}
+        - {x: 31, y: -110.5}
+        - {x: 45, y: -15.5}
+        - {x: 45, y: 94.5}
+        - {x: 19, y: 110.5}
+    - name: RobotBoyIdleSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1785
+        width: 92
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 110}
+        - {x: -46, y: 89}
+        - {x: -46, y: -72}
+        - {x: -42, y: -110}
+        - {x: 21, y: -110}
+        - {x: 46, y: 9}
+        - {x: 46, y: 110}
+    - name: RobotBoyIdleSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1785
+        width: 92
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 64}
+        - {x: 39, y: 93}
+        - {x: 33, y: 109}
+        - {x: 28, y: 110}
+        - {x: -38, y: 110}
+        - {x: -46, y: 81}
+        - {x: -46, y: -62}
+        - {x: -36, y: -110}
+        - {x: 16, y: -110}
+        - {x: 17, y: -109}
+        - {x: 13, y: -98}
+        - {x: 46, y: 40}
+    - name: RobotBoyIdleSprite_6
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1784
+        width: 89
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 110.5}
+        - {x: -44.5, y: 93.5}
+        - {x: -44.5, y: -57.5}
+        - {x: -37.5, y: -110.5}
+        - {x: 32.5, y: -110.5}
+        - {x: 44.5, y: -16.5}
+        - {x: 44.5, y: 107.5}
+        - {x: 29.5, y: 110.5}
+    - name: RobotBoyIdleSprite_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1510
+        width: 90
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 110}
+        - {x: -45, y: 109}
+        - {x: -45, y: -83}
+        - {x: -36, y: -110}
+        - {x: 41, y: -110}
+        - {x: 45, y: -55}
+        - {x: 45, y: 110}
+    - name: RobotBoyIdleSprite_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1510
+        width: 91
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 110}
+        - {x: -37.5, y: 110}
+        - {x: -45.5, y: 108}
+        - {x: -45.5, y: -93}
+        - {x: -35.5, y: -110}
+        - {x: 14.5, y: -110}
+        - {x: 16.5, y: -109}
+        - {x: 23.5, y: -87}
+        - {x: 45.5, y: 8}
+    - name: RobotBoyIdleSprite_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1510
+        width: 89
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 111}
+        - {x: -44.5, y: 110}
+        - {x: -44.5, y: -109}
+        - {x: -37.5, y: -111}
+        - {x: 16.5, y: -111}
+        - {x: 17.5, y: -110}
+        - {x: 44.5, y: -9}
+        - {x: 44.5, y: 111}
+    - name: RobotBoyIdleSprite_10
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1510
+        width: 89
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 111}
+        - {x: -41.5, y: 111}
+        - {x: -44.5, y: 104}
+        - {x: -44.5, y: -111}
+        - {x: 17.5, y: -111}
+        - {x: 17.5, y: -110}
+        - {x: 44.5, y: -7}
+        - {x: 44.5, y: 104}
+    - name: RobotBoyIdleSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1510
+        width: 91
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 12}
+        - {x: 45.5, y: 93}
+        - {x: 15.5, y: 111}
+        - {x: -34.5, y: 111}
+        - {x: -45.5, y: 79}
+        - {x: -45.5, y: -61}
+        - {x: -41.5, y: -111}
+        - {x: 18.5, y: -111}
+        - {x: 18.5, y: -110}
+        - {x: 14.5, y: -99}
+        - {x: 9.5, y: -98}
+    - name: RobotBoyIdleSprite_12
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 89}
+        - {x: 35.5, y: 104}
+        - {x: 26.5, y: 110}
+        - {x: -44.5, y: 110}
+        - {x: -44.5, y: -90}
+        - {x: -35.5, y: -106}
+        - {x: -30.5, y: -110}
+        - {x: 16.5, y: -110}
+        - {x: 17.5, y: -109}
+        - {x: 13.5, y: -98}
+        - {x: 44.5, y: 16}
+    - name: RobotBoyIdleSprite_13
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 110}
+        - {x: -44.5, y: 108}
+        - {x: -44.5, y: -93}
+        - {x: -36.5, y: -110}
+        - {x: 33.5, y: -110}
+        - {x: 44.5, y: -31}
+        - {x: 44.5, y: 104}
+        - {x: 27.5, y: 110}
+    - name: RobotBoyIdleSprite_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1235
+        width: 90
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 110.5}
+        - {x: -45, y: -110.5}
+        - {x: 34, y: -110.5}
+        - {x: 45, y: -10.5}
+        - {x: 45, y: 110.5}
+    - name: RobotBoyIdleSprite_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1235
+        width: 91
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 110.5}
+        - {x: -45.5, y: -103.5}
+        - {x: -42.5, y: -110.5}
+        - {x: 36.5, y: -110.5}
+        - {x: 45.5, y: -23.5}
+        - {x: 45.5, y: 110.5}
+    - name: RobotBoyIdleSprite_16
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1235
+        width: 89
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 110.5}
+        - {x: -44.5, y: 85.5}
+        - {x: -44.5, y: -21.5}
+        - {x: -37.5, y: -59.5}
+        - {x: -31.5, y: -63.5}
+        - {x: -38.5, y: -98.5}
+        - {x: -32.5, y: -110.5}
+        - {x: 16.5, y: -110.5}
+        - {x: 17.5, y: -109.5}
+        - {x: 44.5, y: -68.5}
+        - {x: 44.5, y: 110.5}
+    - name: RobotBoyIdleSprite_17
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1235
+        width: 89
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 16.5}
+        - {x: 44.5, y: 87.5}
+        - {x: 43.5, y: 94.5}
+        - {x: 24.5, y: 110.5}
+        - {x: -35.5, y: 110.5}
+        - {x: -44.5, y: 108.5}
+        - {x: -44.5, y: -78.5}
+        - {x: -34.5, y: -110.5}
+        - {x: 16.5, y: -110.5}
+        - {x: 17.5, y: -109.5}
+        - {x: 13.5, y: -98.5}
+        - {x: 8.5, y: -97.5}
+    - name: RobotBoyIdleSprite_18
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1235
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 89}
+        - {x: 34, y: 108}
+        - {x: 24, y: 110}
+        - {x: -35, y: 110}
+        - {x: -44, y: 96}
+        - {x: -44, y: -95}
+        - {x: -37, y: -110}
+        - {x: 30, y: -110}
+        - {x: 44, y: 19}
+        - {x: 44, y: 65}
+        - {x: 43, y: 66}
+    - name: RobotBoyIdleSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1235
+        width: 89
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 95.5}
+        - {x: 43.5, y: 98.5}
+        - {x: 16.5, y: 110.5}
+        - {x: -35.5, y: 110.5}
+        - {x: -44.5, y: 106.5}
+        - {x: -44.5, y: -107.5}
+        - {x: -43.5, y: -110.5}
+        - {x: 17.5, y: -110.5}
+        - {x: 18.5, y: -109.5}
+        - {x: 14.5, y: -98.5}
+        - {x: 44.5, y: -3.5}
+    - name: RobotBoyIdleSprite_20
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1235
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 108}
+        - {x: 22.5, y: 110}
+        - {x: -34.5, y: 110}
+        - {x: -44.5, y: 101}
+        - {x: -44.5, y: -110}
+        - {x: 24.5, y: -110}
+        - {x: 14.5, y: -98}
+        - {x: 44.5, y: 34}
+        - {x: 44.5, y: 79}
+    - name: RobotBoyIdleSprite_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 110}
+        - {x: -44, y: -47}
+        - {x: -32, y: -110}
+        - {x: 22, y: -110}
+        - {x: 44, y: -3}
+        - {x: 44, y: 105}
+        - {x: 28, y: 110}
+    - name: RobotBoyIdleSprite_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 39}
+        - {x: 44, y: 79}
+        - {x: 34, y: 108}
+        - {x: 29, y: 110}
+        - {x: -40, y: 110}
+        - {x: -44, y: 99}
+        - {x: -44, y: -48}
+        - {x: -35, y: -106}
+        - {x: -31, y: -110}
+        - {x: 30, y: -110}
+        - {x: 6, y: 6}
+        - {x: 4, y: 12}
+        - {x: 22, y: 18}
+    - name: RobotBoyIdleSprite_23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 109}
+        - {x: 28, y: 110}
+        - {x: -40, y: 110}
+        - {x: -44, y: 101}
+        - {x: -44, y: -92}
+        - {x: -41, y: -109}
+        - {x: -34, y: -110}
+        - {x: 19, y: -110}
+        - {x: 19, y: -109}
+        - {x: 44, y: -8}
+        - {x: 44, y: 92}
+    - name: RobotBoyIdleSprite_24
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 960
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 110}
+        - {x: -44.5, y: -110}
+        - {x: 23.5, y: -110}
+        - {x: 44.5, y: 3}
+        - {x: 44.5, y: 105}
+        - {x: 25.5, y: 110}
+    - name: RobotBoyIdleSprite_25
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 960
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 110}
+        - {x: -43.5, y: -92}
+        - {x: -34.5, y: -106}
+        - {x: -25.5, y: -110}
+        - {x: 18.5, y: -110}
+        - {x: 19.5, y: -109}
+        - {x: 43.5, y: -4}
+        - {x: 43.5, y: 110}
+    - name: RobotBoyIdleSprite_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 960
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 110}
+        - {x: -43.5, y: -61}
+        - {x: -35.5, y: -107}
+        - {x: -24.5, y: -110}
+        - {x: 17.5, y: -110}
+        - {x: 19.5, y: -109}
+        - {x: 43.5, y: -72}
+        - {x: 43.5, y: 110}
+    - name: RobotBoyIdleSprite_27
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 960
+        width: 92
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 104}
+        - {x: 23, y: 110}
+        - {x: -45, y: 110}
+        - {x: -45, y: -77}
+        - {x: -33, y: -110}
+        - {x: 19, y: -110}
+        - {x: 20, y: -109}
+        - {x: 16, y: -98}
+        - {x: 46, y: 15}
+    - name: RobotBoyIdleSprite_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 685
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 109}
+        - {x: 27, y: 110}
+        - {x: -32, y: 110}
+        - {x: -42, y: 95}
+        - {x: -44, y: 91}
+        - {x: -44, y: -101}
+        - {x: -35, y: -110}
+        - {x: 23, y: -110}
+        - {x: 16, y: -98}
+        - {x: 44, y: 23}
+        - {x: 44, y: 77}
+    - name: RobotBoyIdleSprite_29
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 685
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 104}
+        - {x: 29.5, y: 110}
+        - {x: -43.5, y: 110}
+        - {x: -43.5, y: -103}
+        - {x: -33.5, y: -110}
+        - {x: 18.5, y: -110}
+        - {x: 19.5, y: -109}
+        - {x: 15.5, y: -98}
+        - {x: 43.5, y: 13}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

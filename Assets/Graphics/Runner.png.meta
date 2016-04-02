@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 9163fd52ba9f85645a9a7f5f5c54a42a
 timeCreated: 1459587332
 licenseType: Free
@@ -18,6 +19,13 @@ TextureImporter:
     21300022: Runner_11
     21300024: Runner_12
     21300026: Runner_13
+=======
+guid: e6aed98dbc9f74aef93c97decf3aac3d
+timeCreated: 1459588418
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+>>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -40,6 +48,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
+<<<<<<< HEAD
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
@@ -48,17 +57,32 @@ TextureImporter:
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
+=======
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 1
+>>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 0
+>>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+<<<<<<< HEAD
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -279,6 +303,13 @@ TextureImporter:
         - {x: 80, y: -101.5}
         - {x: 80, y: 127.5}
         - {x: 69, y: 134.5}
+=======
+  alphaIsTransparency: 0
+  textureType: -1
+  buildTargetSettings: []
+  spriteSheet:
+    sprites: []
+>>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
     outline: []
   spritePackingTag: 
   userData: 
