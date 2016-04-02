@@ -1,18 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: f6508b53c49583e4abb7b1f6f11d6b56
-timeCreated: 1459599438
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName:
-    21300000: Bob_standing_0
-=======
-guid: bd04839f8ce2fdc478725dbdd8406530
-timeCreated: 1459599132
+guid: a7f238b981a726b4ab8c37793eb12737
+timeCreated: 1459592943
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
->>>>>>> origin/master
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,16 +26,6 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-<<<<<<< HEAD
-  textureFormat: -3
-  maxTextureSize: 2048
-  textureSettings:
-    filterMode: 2
-    aniso: 16
-    mipBias: -1
-    wrapMode: 1
-  nPOTScale: 0
-=======
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
@@ -53,52 +34,22 @@ TextureImporter:
     mipBias: -1
     wrapMode: -1
   nPOTScale: 1
->>>>>>> origin/master
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-<<<<<<< HEAD
-  spriteMode: 2
-=======
   spriteMode: 0
->>>>>>> origin/master
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-<<<<<<< HEAD
-  alphaIsTransparency: 1
-  textureType: 8
-  buildTargetSettings: []
-  spriteSheet:
-    sprites:
-    - name: Bob_standing_0
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 144
-        width: 197
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 95, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -49.5, y: 86}
-        - {x: -98.5, y: 42}
-        - {x: -98.5, y: -86}
-        - {x: 89.5, y: -86}
-        - {x: 98.5, y: -54}
-        - {x: 98.5, y: 86}
-=======
   alphaIsTransparency: 0
   textureType: -1
   buildTargetSettings: []
   spriteSheet:
     sprites: []
->>>>>>> origin/master
     outline: []
   spritePackingTag: 
   userData: 
