@@ -45,7 +45,8 @@ public class Entity : MonoBehaviour
 
     protected void Move(bool grounded, bool jump)
     {
-        
+
+        anim.SetBool("moving", false);
         if (moving && !jump && grounded)
         {
             // Debug.Log(type + " ID: " + id + " Moving");
@@ -54,7 +55,8 @@ public class Entity : MonoBehaviour
         else if(jump && grounded)
         {
             
-           // anim.SetTrigger(standHash);
+            anim.SetBool("jump", true);
+            // anim.SetTrigger(standHash);
             //Debug.Log("Animation stopping");
         }
     }
