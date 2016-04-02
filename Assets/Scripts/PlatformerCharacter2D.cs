@@ -29,6 +29,7 @@ public class PlatformerCharacter2D : Entity
         // Setting up references.
         m_GroundCheck = transform.Find("GroundCheck");
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        type = EntityType.PLAYER;
     }
 
 
@@ -51,6 +52,9 @@ public class PlatformerCharacter2D : Entity
     {
         // Check if the vertical speed will be below the limit
         // Only control the player if grounded or airControl is turned on
+        moving = (Mathf.Abs(move) < 0.5f) ? false : true;
+        base.Move(m_Grounded, jump);
+        //Debug.Log("move value: " + move);
         if (m_Grounded || m_AirControl)
         {
             // Move the character

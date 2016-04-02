@@ -1,7 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 9163fd52ba9f85645a9a7f5f5c54a42a
-timeCreated: 1459587332
+timeCreated: 1459603352
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -19,13 +18,6 @@ TextureImporter:
     21300022: Runner_11
     21300024: Runner_12
     21300026: Runner_13
-=======
-guid: e6aed98dbc9f74aef93c97decf3aac3d
-timeCreated: 1459588418
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
->>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +40,6 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-<<<<<<< HEAD
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
@@ -57,259 +48,275 @@ TextureImporter:
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
-=======
-  textureFormat: -1
-  maxTextureSize: 2048
-  textureSettings:
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
->>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 0
->>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-<<<<<<< HEAD
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
+    - name: Runner_0
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 305
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Runner_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 292
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Runner_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 286
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Runner_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 276
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Runner_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 274
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Runner_5
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 270
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Runner_6
       rect:
         serializedVersion: 2
         x: 10
         y: 18
-        width: 164
-        height: 293
+        width: 165
+        height: 259
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 119}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 50, y: 114.5}
-        - {x: 27, y: 114.5}
-        - {x: -69, y: 45.5}
-        - {x: -82, y: -11.5}
-        - {x: -82, y: -146.5}
-        - {x: 17, y: -146.5}
-        - {x: 82, y: -114.5}
-        - {x: 82, y: 63.5}
-        - {x: 78, y: 95.5}
-      - - {x: 18, y: 137.5}
-        - {x: 14, y: 133.5}
-        - {x: 14, y: 121.5}
-        - {x: 16, y: 119.5}
-        - {x: 23, y: 119.5}
-        - {x: 27, y: 120.5}
-        - {x: 27, y: 133.5}
-        - {x: 25, y: 137.5}
+      - - {x: 68.5, y: 129.5}
+        - {x: 13.5, y: 129.5}
+        - {x: -69.5, y: 63.5}
+        - {x: -82.5, y: 2.5}
+        - {x: -82.5, y: -129.5}
+        - {x: -7.5, y: -129.5}
+        - {x: 15.5, y: -124.5}
+        - {x: 82.5, y: -95.5}
+        - {x: 82.5, y: 125.5}
     - name: Runner_7
       rect:
         serializedVersion: 2
         x: 191
-        y: 9
+        y: 11
         width: 161
-        height: 305
+        height: 262
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 124}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 41.5, y: -125.5}
-        - {x: 80.5, y: -81.5}
-        - {x: 80.5, y: 110.5}
-        - {x: 77.5, y: 131.5}
-        - {x: 25.5, y: 131.5}
-        - {x: -10.5, y: 60.5}
-        - {x: 21.5, y: 5.5}
-        - {x: 30.5, y: -1.5}
-        - {x: 33.5, y: -5.5}
-        - {x: 33.5, y: -7.5}
-        - {x: 34.5, y: -14.5}
-        - {x: 33.5, y: -13.5}
-        - {x: 33.5, y: -6.5}
-        - {x: 32.5, y: -3.5}
-        - {x: 28.5, y: -0.5}
-        - {x: 10.5, y: 10.5}
-        - {x: -5.5, y: 16.5}
-        - {x: -35.5, y: 13.5}
-        - {x: -54.5, y: 4.5}
-        - {x: -78.5, y: -18.5}
-        - {x: -80.5, y: -22.5}
-        - {x: -80.5, y: -131.5}
-        - {x: -60.5, y: -152.5}
-        - {x: 45.5, y: -152.5}
-        - {x: 53.5, y: -137.5}
-        - {x: 50.5, y: -128.5}
-        - {x: 47.5, y: -125.5}
-      - - {x: 18.5, y: 151.5}
-        - {x: 16.5, y: 149.5}
-        - {x: 16.5, y: 143.5}
-        - {x: 18.5, y: 141.5}
-        - {x: 22.5, y: 141.5}
-        - {x: 25.5, y: 142.5}
-        - {x: 25.5, y: 151.5}
+      - - {x: 71.5, y: 131}
+        - {x: 19.5, y: 131}
+        - {x: -11.5, y: 80}
+        - {x: 21.5, y: 25}
+        - {x: 30.5, y: 18}
+        - {x: 33.5, y: 14}
+        - {x: 33.5, y: 12}
+        - {x: 34.5, y: 5}
+        - {x: 33.5, y: 6}
+        - {x: 33.5, y: 13}
+        - {x: 32.5, y: 16}
+        - {x: 28.5, y: 19}
+        - {x: 10.5, y: 30}
+        - {x: -5.5, y: 39}
+        - {x: -57.5, y: 28}
+        - {x: -80.5, y: 18}
+        - {x: -80.5, y: -131}
+        - {x: 46.5, y: -131}
+        - {x: 55.5, y: -106}
+        - {x: 80.5, y: -65}
+        - {x: 80.5, y: 127}
     - name: Runner_8
       rect:
         serializedVersion: 2
         x: 369
         y: 9
         width: 164
-        height: 298
+        height: 263
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 129}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 19, y: 142}
-        - {x: -75, y: 102}
-        - {x: -82, y: 73}
-        - {x: -82, y: -149}
-        - {x: 29, y: -149}
-        - {x: 82, y: -82}
-        - {x: 82, y: 73}
-        - {x: 73, y: 142}
+      - - {x: 41, y: 131.5}
+        - {x: 21, y: 131.5}
+        - {x: 3, y: 93.5}
+        - {x: 5, y: 76.5}
+        - {x: -82, y: 6.5}
+        - {x: -82, y: -123.5}
+        - {x: -46, y: -131.5}
+        - {x: 29, y: -131.5}
+        - {x: 82, y: -64.5}
+        - {x: 82, y: 81.5}
+        - {x: 60, y: 124.5}
     - name: Runner_9
       rect:
         serializedVersion: 2
         x: 553
         y: 8
         width: 158
-        height: 303
+        height: 269
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 130}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 79, y: 24.5}
-        - {x: 79, y: 78.5}
-        - {x: 65, y: 119.5}
-        - {x: 19, y: 119.5}
-        - {x: -29, y: 102.5}
-        - {x: -79, y: 8.5}
-        - {x: -79, y: -151.5}
-        - {x: 41, y: -151.5}
-        - {x: 79, y: -92.5}
-        - {x: 79, y: -61.5}
-        - {x: 57, y: -57.5}
-      - - {x: 41, y: 151.5}
-        - {x: 29, y: 151.5}
-        - {x: 29, y: 138.5}
-        - {x: 32, y: 131.5}
-        - {x: 34, y: 130.5}
-        - {x: 41, y: 130.5}
-        - {x: 45, y: 134.5}
-        - {x: 45, y: 148.5}
+      - - {x: 79, y: 79.5}
+        - {x: 79, y: 94.5}
+        - {x: 56, y: 134.5}
+        - {x: 14, y: 134.5}
+        - {x: -79, y: 11.5}
+        - {x: -79, y: -134.5}
+        - {x: 41, y: -134.5}
+        - {x: 79, y: -75.5}
+        - {x: 79, y: -44.5}
+        - {x: 57, y: -40.5}
     - name: Runner_10
       rect:
         serializedVersion: 2
         x: 731
         y: 19
         width: 161
-        height: 283
+        height: 259
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 117}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 37.5, y: -105.5}
-        - {x: 35.5, y: -95.5}
-        - {x: 29.5, y: -89.5}
-        - {x: 19.5, y: -89.5}
-        - {x: 14.5, y: -90.5}
-        - {x: 21.5, y: -89.5}
-        - {x: 71.5, y: -83.5}
-        - {x: 80.5, y: -77.5}
-        - {x: 80.5, y: 56.5}
-        - {x: 75.5, y: 109.5}
-        - {x: 58.5, y: 119.5}
-        - {x: -24.5, y: 119.5}
-        - {x: -80.5, y: 59.5}
-        - {x: -80.5, y: -141.5}
-        - {x: 15.5, y: -141.5}
-        - {x: 66.5, y: -113.5}
-        - {x: 52.5, y: -104.5}
-        - {x: 42.5, y: -104.5}
+      - - {x: 37.5, y: -93.5}
+        - {x: 35.5, y: -83.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 19.5, y: -77.5}
+        - {x: 14.5, y: -78.5}
+        - {x: 21.5, y: -77.5}
+        - {x: 71.5, y: -71.5}
+        - {x: 80.5, y: -64.5}
+        - {x: 80.5, y: 128.5}
+        - {x: 73.5, y: 129.5}
+        - {x: -21.5, y: 129.5}
+        - {x: -40.5, y: 124.5}
+        - {x: -80.5, y: 12.5}
+        - {x: -80.5, y: -129.5}
+        - {x: 15.5, y: -129.5}
+        - {x: 66.5, y: -101.5}
+        - {x: 52.5, y: -92.5}
+        - {x: 42.5, y: -92.5}
     - name: Runner_11
       rect:
         serializedVersion: 2
         x: 910
         y: 9
         width: 162
-        height: 289
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 115}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 59, y: 120.5}
-        - {x: 46, y: 121.5}
-        - {x: 42, y: 116.5}
-        - {x: 42, y: 112.5}
-        - {x: 27, y: 124.5}
-        - {x: 0, y: 124.5}
-        - {x: -81, y: -1.5}
-        - {x: -81, y: -132.5}
-        - {x: -63, y: -144.5}
-        - {x: 54, y: -144.5}
-        - {x: 56, y: -120.5}
-        - {x: 81, y: -105.5}
-        - {x: 81, y: 94.5}
+      - - {x: 77, y: 133.5}
+        - {x: 16, y: 133.5}
+        - {x: 5, y: 123.5}
+        - {x: 8, y: 110.5}
+        - {x: -81, y: 23.5}
+        - {x: -81, y: -126.5}
+        - {x: -55, y: -133.5}
+        - {x: 41, y: -133.5}
+        - {x: 45, y: -126.5}
+        - {x: 81, y: -109.5}
+        - {x: 81, y: 119.5}
     - name: Runner_12
       rect:
         serializedVersion: 2
         x: 1089
         y: 10
         width: 166
-        height: 290
+        height: 273
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 115}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 130}
-        - {x: -83, y: 18}
-        - {x: -83, y: -117}
-        - {x: -66, y: -118}
-        - {x: -42, y: -145}
-        - {x: 70, y: -145}
-        - {x: 83, y: -124}
-        - {x: 83, y: 127}
-        - {x: 79, y: 130}
+      - - {x: 83, y: 98.5}
+        - {x: 81, y: 114.5}
+        - {x: 51, y: 136.5}
+        - {x: -17, y: 136.5}
+        - {x: -83, y: 34.5}
+        - {x: -83, y: -108.5}
+        - {x: -66, y: -109.5}
+        - {x: -42, y: -136.5}
+        - {x: 11, y: -136.5}
+        - {x: 12, y: -133.5}
+        - {x: 12, y: -129.5}
+        - {x: 83, y: -79.5}
     - name: Runner_13
       rect:
         serializedVersion: 2
         x: 1272
         y: 8
         width: 160
-        height: 299
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 115}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 9, y: 134.5}
-        - {x: -28, y: 87.5}
-        - {x: -80, y: 16.5}
-        - {x: -80, y: -133.5}
-        - {x: -73, y: -149.5}
-        - {x: 37, y: -149.5}
-        - {x: 80, y: -101.5}
-        - {x: 80, y: 127.5}
-        - {x: 69, y: 134.5}
-=======
-  alphaIsTransparency: 0
-  textureType: -1
-  buildTargetSettings: []
-  spriteSheet:
-    sprites: []
->>>>>>> c78cc0473a58bfec40c6d388631f1fcb30207700
+      - - {x: 1, y: 133.5}
+        - {x: -80, y: 5.5}
+        - {x: -80, y: -109.5}
+        - {x: -59, y: -133.5}
+        - {x: 62, y: -133.5}
+        - {x: 80, y: -107.5}
+        - {x: 80, y: 133.5}
     outline: []
   spritePackingTag: 
   userData: 
