@@ -7,16 +7,14 @@ public class Enemy : Entity {
     private bool playerSeen;                 // if the player has been seen or not
     private Rigidbody2D m_RigidBody2D;       // the enemies rigidbody2d
     private bool m_FacingRight;
-    private SpriteRenderer m_SpriteRenderer; // Sprite renderer attached to enemy
     
     public float movespeed = 4f;       // the movespeed of the enemy
-    public float maxDistance = 1.5f;       // maximum distance that the enemy will stay from the player
+    public float maxDistance = 2f;       // maximum distance that the enemy will stay from the player
 
 	// Use this for initialization
 	void Start ()
     {
         m_FacingRight = true;
-        m_SpriteRenderer = GetComponent<SpriteRenderer>();
 	    player = GameObject.FindGameObjectWithTag("Player");
     }
 	
@@ -57,13 +55,11 @@ public class Enemy : Entity {
     {
         float distance = destination.x - transform.position.x;
         float dir = Mathf.Sign(distance);
-        float absDist = Mathf.Abs(distance);
 
-        //
         if (dir == 1) //Facing right
-            m_SpriteRenderer.flipX = false;
+            transform.localScale = new Vector3(1f,1f,1f);
         else if (dir == -1) //Facing left
-            m_SpriteRenderer.flipX = true;
+            transform.localScale = new Vector3(-1f, 1f, 1f);
 
         if (distance > maxDistance || distance < -maxDistance)
             transform.position += new Vector3(dir, 0, 0) * Time.deltaTime * movespeed;
