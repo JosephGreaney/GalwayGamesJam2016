@@ -23,4 +23,16 @@ public class GameManager : MonoBehaviour {
         //Sets this object to not be destroyed when scene is reloaded
         DontDestroyOnLoad(gameObject);
 	}
+
+    /**
+     *  PlayerDeath kills the player and restarts the game when called
+     */
+     public void PlayerDeath()
+    {
+        Debug.Log("You have died");
+        //SceneManager.LoadScene("JoeTestScene");
+    }
+
+
+
 }
