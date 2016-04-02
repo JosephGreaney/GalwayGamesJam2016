@@ -15,7 +15,7 @@ public class PlatformerCharacter2D : Entity
     public float zoneDistance = 500;    // The distance between each zone in the level
 
     private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
-    const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+    const float k_GroundedRadius = .1f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
     private bool m_Attacking;
 
@@ -44,7 +44,7 @@ public class PlatformerCharacter2D : Entity
                 m_Grounded = true;
             else
                 m_Grounded = false;
-            Debug.Log("Player Grounded: " + m_Grounded);
+            Debug.Log("Player Grounded: " + colliders[i].gameObject);
         }
 
         transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -56,7 +56,7 @@ public class PlatformerCharacter2D : Entity
         // Check if the vertical speed will be below the limit
         // Only control the player if grounded or airControl is turned on
         moving = (Mathf.Abs(move) < 0.5f) ? false : true;
-        base.Move(m_Grounded, jump);
+        base.Move(m_Grounded, jump, m_Rigidbody2D);
         //Debug.Log("move value: " + move);
         if (m_Grounded || m_AirControl)
         {
