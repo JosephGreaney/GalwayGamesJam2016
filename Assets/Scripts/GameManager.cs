@@ -32,6 +32,11 @@ public class GameManager : MonoBehaviour {
         Debug.Log("You have died");
         //SceneManager.LoadScene("JoeSandbox");
     }
+    public void PlayerWin()
+    {
+        Debug.Log("You have Won!");
+        //SceneManager.LoadScene("JoeTestScene");
+    }
 
 
 
