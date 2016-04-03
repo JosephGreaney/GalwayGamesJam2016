@@ -21,7 +21,7 @@ public class PlatformerCharacter2D : Entity
     private bool m_Grounded;            // Whether or not the player is grounded.
     public bool warpCooldown;
     public int cdRemaining;
-    public const int cd = 3;
+    public int cd;
 
     public float step = 0;
     private AudioSource m_AudioSource;
@@ -141,11 +141,15 @@ public class PlatformerCharacter2D : Entity
                 gameObject.transform.position = targetDest;
                 currZone = destination;
                 warpCooldown = true;
+                m_AudioSource.clip = m_FootstepSounds[2];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
                 StartCoroutine("WarpCooldown");
             }
             else
             {
                 Debug.Log("Collided");
+                m_AudioSource.clip = m_FootstepSounds[3];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
             }
         }
        
@@ -203,6 +207,10 @@ public class PlatformerCharacter2D : Entity
     public void Attack(bool m_Attack)
     {
         if(m_Attack && !attacking)
+        {
             base.Attack();
+            m_AudioSource.clip = m_FootstepSounds[4];
+            m_AudioSource.PlayOneShot(m_AudioSource.clip);
+        }
     }
 }
