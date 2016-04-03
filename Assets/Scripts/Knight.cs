@@ -10,7 +10,7 @@ public class Knight : Enemy {
         maxDistance = 1.6f;
         movespeed = 4f;
         fireRange = 1.2f;
-        attacking = false;
+        attackTime = 1.2f;
     }
 	
 	// Update is called once per frame
@@ -24,9 +24,8 @@ public class Knight : Enemy {
 
     new void Attack()
     {
-        attacking = true;
         int dir;
-        //base.Attack();
+        base.Attack();
         //Create a collider in front and behind of the player
         if (m_FacingRight)
             dir = 1;
@@ -42,6 +41,5 @@ public class Knight : Enemy {
             if (colliders[i].gameObject.tag == "Player")
                 Debug.Log("Hit");
         }
-        attacking = false;
     }
 }

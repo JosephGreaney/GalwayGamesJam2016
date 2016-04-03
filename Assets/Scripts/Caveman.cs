@@ -9,7 +9,7 @@ public class Caveman : Enemy {
         maxDistance = 2.5f;
         movespeed = 4f;
         fireRange = 3f;
-        attacking = false;
+        attackTime = 1f;
 	}
 	
 	// Update is called once per frame
@@ -23,8 +23,7 @@ public class Caveman : Enemy {
 
     new void Attack()
     {
-        attacking = true;
-        //base.Attack();
+        base.Attack();
         //Create a collider in front and behind of the player
         Vector2 pointA = new Vector2((transform.position.x - fireRange), (transform.position.y - 1));
         Vector2 pointB = new Vector2((transform.position.x + fireRange), (transform.position.y + 1));
@@ -35,6 +34,5 @@ public class Caveman : Enemy {
             if (colliders[i].gameObject.tag == "Player")
                 Debug.Log("Hit");
         }
-        attacking = false;
     }
 }
