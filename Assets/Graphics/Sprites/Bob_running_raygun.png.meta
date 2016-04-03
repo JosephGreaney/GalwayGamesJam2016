@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 8109518e1a8b13348b298dc76c333228
+timeCreated: 1459638015
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_running_raygun_0
+    21300002: Bob_running_raygun_1
+    21300004: Bob_running_raygun_2
+    21300006: Bob_running_raygun_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_running_raygun_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 21
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 79.5}
+        - {x: -49, y: 79.5}
+        - {x: -80, y: 59.5}
+        - {x: -80, y: -79.5}
+        - {x: 15, y: -79.5}
+        - {x: 60, y: -71.5}
+        - {x: 80, y: -11.5}
+        - {x: 80, y: 8.5}
+        - {x: 9, y: 78.5}
+    - name: Bob_running_raygun_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 20
+        width: 160
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -42.5}
+        - {x: -66, y: -75.5}
+        - {x: -61, y: -78.5}
+        - {x: 45, y: -78.5}
+        - {x: 80, y: -45.5}
+        - {x: 80, y: 12.5}
+        - {x: 9, y: 77.5}
+        - {x: 4, y: 78.5}
+        - {x: -71, y: 78.5}
+        - {x: -80, y: 56.5}
+    - name: Bob_running_raygun_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 15
+        width: 161
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -32.5}
+        - {x: 7.5, y: -37.5}
+        - {x: 12.5, y: -38.5}
+        - {x: 23.5, y: -40.5}
+        - {x: 78.5, y: -12.5}
+        - {x: 80.5, y: -8.5}
+        - {x: 80.5, y: 15.5}
+        - {x: 31.5, y: 79.5}
+        - {x: -80.5, y: 79.5}
+        - {x: -80.5, y: -33.5}
+        - {x: -67.5, y: -79.5}
+        - {x: 4.5, y: -79.5}
+        - {x: 7.5, y: -38.5}
+        - {x: 3.5, y: -34.5}
+        - {x: 0.5, y: -28.5}
+    - name: Bob_running_raygun_3
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 18
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -70.5}
+        - {x: -17, y: -79.5}
+        - {x: 34, y: -79.5}
+        - {x: 80, y: -33.5}
+        - {x: 80, y: 40.5}
+        - {x: 77, y: 58.5}
+        - {x: 30, y: 79.5}
+        - {x: -80, y: 79.5}
+        - {x: -80, y: -55.5}
+        - {x: -67, y: -79.5}
+        - {x: -33, y: -79.5}
+        - {x: -31, y: -77.5}
+        - {x: -30, y: -72.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: bfe014cb5b1231d4db5b3fd09c445635
+timeCreated: 1459637999
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_jumping_shield_jetpack_0
+    21300002: Bob_jumping_shield_jetpack_1
+    21300004: Bob_jumping_shield_jetpack_2
+    21300006: Bob_jumping_shield_jetpack_3
+    21300008: Bob_jumping_shield_jetpack_4
+    21300010: Bob_jumping_shield_jetpack_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_jumping_shield_jetpack_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 69
+        width: 132
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 88}
+        - {x: -66, y: 65}
+        - {x: -66, y: -57}
+        - {x: -50, y: -88}
+        - {x: 29, y: -88}
+        - {x: 66, y: -63}
+        - {x: 66, y: 63}
+        - {x: 32, y: 88}
+    - name: Bob_jumping_shield_jetpack_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 64
+        width: 135
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.5, y: 65.5}
+        - {x: 67.5, y: 69.5}
+        - {x: 27.5, y: 90.5}
+        - {x: -66.5, y: 90.5}
+        - {x: -67.5, y: 89.5}
+        - {x: -67.5, y: -16.5}
+        - {x: -45.5, y: -90.5}
+        - {x: 33.5, y: -90.5}
+        - {x: 62.5, y: -85.5}
+        - {x: 67.5, y: -60.5}
+        - {x: 67.5, y: 39.5}
+        - {x: 55.5, y: 46.5}
+    - name: Bob_jumping_shield_jetpack_2
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 62
+        width: 138
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 38}
+        - {x: 18, y: -10}
+        - {x: 41, y: 25}
+        - {x: 40, y: 84}
+        - {x: 13, y: 92}
+        - {x: -54, y: 92}
+        - {x: -69, y: 76}
+        - {x: -69, y: -39}
+        - {x: -61, y: -85}
+        - {x: -41, y: -92}
+        - {x: 35, y: -92}
+        - {x: 67, y: -69}
+        - {x: 69, y: -53}
+        - {x: 69, y: 39}
+    - name: Bob_jumping_shield_jetpack_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 73
+        width: 137
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 85.5}
+        - {x: -60.5, y: 69.5}
+        - {x: -68.5, y: 56.5}
+        - {x: -68.5, y: -10.5}
+        - {x: -66.5, y: -28.5}
+        - {x: -56.5, y: -44.5}
+        - {x: -35.5, y: -85.5}
+        - {x: 41.5, y: -85.5}
+        - {x: 68.5, y: -54.5}
+        - {x: 68.5, y: 33.5}
+        - {x: 35.5, y: 85.5}
+    - name: Bob_jumping_shield_jetpack_4
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 74
+        width: 136
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -53.5}
+        - {x: 68, y: 32.5}
+        - {x: 32, y: 84.5}
+        - {x: -37, y: 84.5}
+        - {x: -68, y: 66.5}
+        - {x: -68, y: -37.5}
+        - {x: -67, y: -45.5}
+        - {x: -14, y: -84.5}
+        - {x: 10, y: -84.5}
+        - {x: 18, y: -76.5}
+        - {x: 23, y: -84.5}
+    - name: Bob_jumping_shield_jetpack_5
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 86
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 78}
+        - {x: -68, y: 59}
+        - {x: -68, y: -37}
+        - {x: -16, y: -78}
+        - {x: 49, y: -78}
+        - {x: 66, y: -70}
+        - {x: 68, y: -60}
+        - {x: 68, y: 34}
+        - {x: 35, y: 78}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
