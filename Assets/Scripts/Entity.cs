@@ -47,7 +47,7 @@ public class Entity : MonoBehaviour
             print("attacking true");
             attacking = true;
             anim.SetBool("attacking", true);
-           // print(type + " ID: " + id + " attacked\n");
+            print(type + " ID: " + id + " attacked\n");
             StartCoroutine("AttackCooldown");
         }
         

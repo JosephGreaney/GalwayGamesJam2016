@@ -3,15 +3,17 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using Random = UnityEngine.Random;
+[RequireComponent(typeof(AudioSource))]
 
 public class PlatformerCharacter2D : Entity
 {
     [SerializeField] private float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
     [SerializeField] private float m_JumpForce = 600f;                  // Amount of force added when the player jumps.
     [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
+    [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
     [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
-
+    [SerializeField] private float m_StepInterval;
     public float zoneDistance = 500;    // The distance between each zone in the level
 
     private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
@@ -20,6 +22,10 @@ public class PlatformerCharacter2D : Entity
     public bool warpCooldown;
     public int cdRemaining;
     public const int cd = 3;
+
+    public float step = 0;
+    private AudioSource m_AudioSource;
+
     private Rigidbody2D m_Rigidbody2D;
     public RuntimeAnimatorController[] animator;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
@@ -33,6 +39,7 @@ public class PlatformerCharacter2D : Entity
         m_GroundCheck = transform.Find("GroundCheck");
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         type = EntityType.PLAYER;
+        m_AudioSource = GetComponent<AudioSource>();
         //animator.runtimeAnimatorController;
     }
 
@@ -51,6 +58,15 @@ public class PlatformerCharacter2D : Entity
 
         transform.rotation = Quaternion.Euler(0, 0, 0);
 
+        if (m_Grounded && moving)
+        {
+            step++;
+            if (step == m_StepInterval)
+            {
+                PlayFootStepAudio();
+                step = 0;
+            }
+        }
     }
 
     public void Move(float move, bool jump, int warpDest)
@@ -90,6 +106,21 @@ public class PlatformerCharacter2D : Entity
             Warp(warpDest);
     }
 
+    private void PlayFootStepAudio()
+    {
+        if (!m_Grounded)
+        {
+            return;
+        }
+        // pick & play a random footstep sound from the array,
+        // excluding sound at index 0
+        int n = Random.Range(1, 2);
+        m_AudioSource.clip = m_FootstepSounds[n];
+        m_AudioSource.PlayOneShot(m_AudioSource.clip);
+        // move picked sound to index 0 so it's not picked next time
+        m_FootstepSounds[n] = m_FootstepSounds[0];
+        m_FootstepSounds[0] = m_AudioSource.clip;
+    }
     /**
      *  This function allows the player to warp between time zones
      *  based on the y-axis
