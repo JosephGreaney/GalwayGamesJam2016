@@ -12,6 +12,8 @@ public class Entity : MonoBehaviour
     private int id;
     public int health;
     public int damage;
+    public float attackTime = 0.4f;
+
     protected Animator anim;
     protected bool moving;
     protected bool falling;
@@ -56,7 +58,7 @@ public class Entity : MonoBehaviour
     IEnumerator AttackCooldown()
     {
         print("attack false");
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(attackTime);
         attacking = false;
         anim.SetBool("attacking", false);
     }

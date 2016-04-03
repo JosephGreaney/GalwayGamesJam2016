@@ -8,7 +8,6 @@ public class Enemy : Entity {
     protected bool playerSeen;                 // if the player has been seen or not
     protected bool m_FacingRight;
     protected float distance;                // the distance to the player
-    protected bool attacking;                // whether the enemy is attacking or not
 
     public float fireRange = 2f;
     public float movespeed = 4f;             // the movespeed of the enemy
@@ -20,7 +19,6 @@ public class Enemy : Entity {
         m_FacingRight = true;
 	    player = GameObject.FindGameObjectWithTag("Player");
         distance = fireRange * 2;
-        attacking = false;
     }
 	
 	// Update is called once per frame
