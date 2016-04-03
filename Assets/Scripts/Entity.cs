@@ -10,8 +10,8 @@ public class Entity : MonoBehaviour
     private static int ID;
 
     private int id;
-    public int health;
-    public int damage;
+    public int health = 1;
+    public int damage = 1;
     public float attackTime = 0.4f;
 
     protected Animator anim;
@@ -19,6 +19,7 @@ public class Entity : MonoBehaviour
     protected bool falling;
     protected bool rising;
     protected bool attacking;
+    protected bool gettingHit;
 
     int runHash = Animator.StringToHash("RunnerAnimation");
     int standHash = Animator.StringToHash("Standing");
@@ -37,9 +38,26 @@ public class Entity : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
+        //Check if health is 0
+        if (health == 0)
+        {
+            if (type == EntityType.PLAYER)
+            {
+                //Kill player
+                GameManager.instance.PlayerDeath();
+            }
+            else
+            {
+                //Kill enemy
 
+                //Show death animation
+
+                //Destroy this gameObject
+                Destroy(gameObject);
+            }
+        }
     }
 
     protected void Attack()
@@ -61,6 +79,13 @@ public class Entity : MonoBehaviour
         yield return new WaitForSeconds(attackTime);
         attacking = false;
         anim.SetBool("attacking", false);
+    }
+
+    IEnumerator HitCooldown()
+    {
+        //wait 0.5 seconds before allowing to be hit again
+        yield return new WaitForSeconds(0.5f);
+        gettingHit = false;
     }
 
     protected void Move(bool grounded, bool jump, Rigidbody2D rigid)
@@ -102,5 +127,17 @@ public class Entity : MonoBehaviour
             anim.SetBool("falling", false);
             anim.SetBool("rising", false);
         }
+    }
+
+    public void GetHit()
+    {
+        if (health != 0 && !gettingHit)
+        {
+            //anim.SetBool("hit", true);
+            gettingHit = true;
+            StartCoroutine("HitCooldown");
+            health--;
+        }
+        Debug.Log("Hit" + health);
     }
 }

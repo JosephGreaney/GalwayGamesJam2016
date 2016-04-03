@@ -43,7 +43,6 @@ public class PlatformerCharacter2D : Entity
         //animator.runtimeAnimatorController;
     }
 
-
     private void FixedUpdate()
     {
         m_Grounded = false;

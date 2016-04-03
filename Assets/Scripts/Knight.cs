@@ -39,7 +39,7 @@ public class Knight : Enemy {
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject.tag == "Player")
-                Debug.Log("Hit");
+                player.SendMessage("GetHit");
         }
     }
 }
