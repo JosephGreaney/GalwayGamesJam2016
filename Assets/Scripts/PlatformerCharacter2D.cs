@@ -18,7 +18,9 @@ public class PlatformerCharacter2D : Entity
     const float k_GroundedRadius = .1f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
     private bool m_Attacking;
-
+    public bool warpCooldown;
+    public int cdRemaining;
+    public const int cd = 3;
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
@@ -92,21 +94,40 @@ public class PlatformerCharacter2D : Entity
      */
     void Warp(int destination)
     {
-        int warpTo = destination - currZone;
-        // Where the player will be warped to.
-        Vector3 targetDest = new Vector3(transform.position.x, (transform.position.y + (warpTo * zoneDistance)), transform.position.z);
-        
-        // Check if the destination is unoccupied
-        if (!CheckIfOccupied(targetDest))
+        if (!warpCooldown)
         {
-            // If unoccupied move to that position
-            gameObject.transform.position = targetDest;
-            currZone = destination;
+
+            int warpTo = destination - currZone;
+            // Where the player will be warped to.
+            Vector3 targetDest = new Vector3(transform.position.x, (transform.position.y + (warpTo * zoneDistance)), transform.position.z);
+
+            // Check if the destination is unoccupied
+            if (!CheckIfOccupied(targetDest))
+            {
+                // If unoccupied move to that position
+                gameObject.transform.position = targetDest;
+                currZone = destination;
+                warpCooldown = true;
+                StartCoroutine("WarpCooldown");
+            }
+            else
+            {
+                Debug.Log("Collided");
+            }
         }
-        else
+       
+    }
+
+    IEnumerator WarpCooldown()
+    {
+        cdRemaining = cd;
+        // suspend execution for 5 seconds
+        for (int i = 1; i <= cd; i++)
         {
-            Debug.Log("Collided");
+            yield return new WaitForSeconds(1);
+            cdRemaining = cd - i;
         }
+        warpCooldown = false;
     }
 
     /**
