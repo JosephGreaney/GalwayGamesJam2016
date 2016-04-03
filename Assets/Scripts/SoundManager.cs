@@ -32,7 +32,6 @@ public class SoundManager : MonoBehaviour {
     public void PlayEffect(AudioClip clip)
     {
         effectSource.clip = clip;
-
         //Play the clip.
         effectSource.Play();
     }
