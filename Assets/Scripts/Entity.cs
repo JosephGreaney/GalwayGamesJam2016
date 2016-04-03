@@ -23,7 +23,7 @@ public class Entity : MonoBehaviour
     protected EntityType type;
     public enum EntityType
     {
-        PLAYER, WIZARD, DINOSAUR, CAVEMAN, ROBOT, ALIEN
+        PLAYER, KNIGHT, DINOSAUR, CAVEMAN, ROBOT, ALIEN
     };
     // Use this for initialization
     void Start()
@@ -65,7 +65,7 @@ public class Entity : MonoBehaviour
         anim.SetBool("moving", moving);
         if (!grounded)
         {
-            Debug.Log("not grounded: \n" + rising);
+            //Debug.Log("not grounded: \n" + rising);
 
             if (falling)
             {

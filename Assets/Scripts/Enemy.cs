@@ -3,27 +3,28 @@ using System.Collections;
 
 public class Enemy : Entity {
 
-    private GameObject player;               // player reference
-    private bool playerSeen;                 // if the player has been seen or not
     private Rigidbody2D m_RigidBody2D;       // the enemies rigidbody2d
-    private bool m_FacingRight;
-
+    protected GameObject player;               // player reference
+    protected bool playerSeen;                 // if the player has been seen or not
+    protected bool m_FacingRight;
     protected float distance;                // the distance to the player
+    protected bool attacking;                // whether the enemy is attacking or not
 
     public float fireRange = 2f;
     public float movespeed = 4f;             // the movespeed of the enemy
     public float maxDistance = 2f;           // maximum distance that the enemy will stay from the player
 
 	// Use this for initialization
-	void Start ()
+	void Awake ()
     {
         m_FacingRight = true;
 	    player = GameObject.FindGameObjectWithTag("Player");
         distance = fireRange * 2;
+        attacking = false;
     }
 	
 	// Update is called once per frame
-	void Update ()
+	protected void Update ()
     {
         //Search for player
         if (playerSeen)
@@ -31,8 +32,6 @@ public class Enemy : Entity {
             //moves the enemy towards the player.
             moveTowards(player.transform.position);
         }
-        //  if player is in hitrange
-        //      attack
 	}
 
 
@@ -55,15 +54,21 @@ public class Enemy : Entity {
     /**
      *  Move the enemy towards a given Vector3 destination
      */
-    void moveTowards(Vector3 destination)
+    protected void moveTowards(Vector3 destination)
     {
         distance = destination.x - transform.position.x;
         float dir = Mathf.Sign(distance);
 
         if (dir == 1) //Facing right
-            transform.localScale = new Vector3(1f,1f,1f);
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+            m_FacingRight = true;
+        }
         else if (dir == -1) //Facing left
+        {
             transform.localScale = new Vector3(-1f, 1f, 1f);
+            m_FacingRight = false;
+        }
 
         if (distance > maxDistance || distance < -maxDistance)
             transform.position += new Vector3(dir, 0, 0) * Time.deltaTime * movespeed;

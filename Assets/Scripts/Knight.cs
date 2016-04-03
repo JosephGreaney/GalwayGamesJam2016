@@ -1,33 +1,40 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Caveman : Enemy {
+public class Knight : Enemy {
+
 
 	// Use this for initialization
 	void Start () {
-        type = EntityType.CAVEMAN;
-        maxDistance = 2.5f;
+        type = EntityType.KNIGHT;
+        maxDistance = 1.6f;
         movespeed = 4f;
-        fireRange = 3f;
+        fireRange = 1.2f;
         attacking = false;
-	}
+    }
 	
 	// Update is called once per frame
 	new void Update () {
         base.Update();
-	    if (PlayerInRange() && !attacking)
+        if (PlayerInRange() && !attacking)
         {
             Attack();
         }
-	}
+    }
 
     new void Attack()
     {
         attacking = true;
+        int dir;
         //base.Attack();
         //Create a collider in front and behind of the player
-        Vector2 pointA = new Vector2((transform.position.x - fireRange), (transform.position.y - 1));
-        Vector2 pointB = new Vector2((transform.position.x + fireRange), (transform.position.y + 1));
+        if (m_FacingRight)
+            dir = 1;
+        else
+            dir = -1;
+
+        Vector2 pointA = new Vector2((transform.position.x + (dir * fireRange)), (transform.position.y - 1));
+        Vector2 pointB = new Vector2((transform.position.x), (transform.position.y + 1));
         Collider2D[] colliders = Physics2D.OverlapAreaAll(pointA, pointB);
         //Check if the player has been collided with
         for (int i = 0; i < colliders.Length; i++)

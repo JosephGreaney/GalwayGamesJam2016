@@ -47,7 +47,7 @@ public class PlatformerCharacter2D : Entity
         {
             if (colliders[i].gameObject != gameObject)
                 m_Grounded = true;
-            Debug.Log("Player Grounded: " + colliders[i].gameObject);
+            //Debug.Log("Player Grounded: " + colliders[i].gameObject);
         }
 
         transform.rotation = Quaternion.Euler(0, 0, 0);
