@@ -21,7 +21,7 @@ public class PlatformerCharacter2D : Entity
     private bool m_Grounded;            // Whether or not the player is grounded.
     public bool warpCooldown;
     public int cdRemaining;
-    public const int cd = 3;
+    public  int cd;
 
     public float step = 0;
     private AudioSource m_AudioSource;
