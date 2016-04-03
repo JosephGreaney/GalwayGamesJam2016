@@ -95,7 +95,7 @@ GameObject:
   - 4: {fileID: 6734122}
   - 33: {fileID: 6734124}
   - 23: {fileID: 6734123}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - 23: {fileID: 48615735}
   - 61: {fileID: 48615734}
   - 114: {fileID: 48615733}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LevelDeathLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - 23: {fileID: 57539724}
   - 114: {fileID: 57539723}
   - 61: {fileID: 57539722}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 66883483}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   - 33: {fileID: 87768348}
   - 23: {fileID: 87768347}
   - 61: {fileID: 87768346}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 90209292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -663,6 +663,10 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!4 &115693300 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+  m_PrefabInternal: {fileID: 1054707675}
 --- !u!1 &127766039
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +733,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 139532947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -879,7 +883,7 @@ GameObject:
   - 33: {fileID: 154072101}
   - 23: {fileID: 154072099}
   - 61: {fileID: 154072100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,7 +960,7 @@ GameObject:
   - 33: {fileID: 168271355}
   - 23: {fileID: 168271354}
   - 61: {fileID: 168271353}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,7 +1137,7 @@ GameObject:
   - 33: {fileID: 193596875}
   - 23: {fileID: 193596874}
   - 61: {fileID: 193596873}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,7 +1214,7 @@ GameObject:
   - 33: {fileID: 210607922}
   - 23: {fileID: 210607921}
   - 61: {fileID: 210607920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,7 +1291,7 @@ GameObject:
   - 33: {fileID: 224416121}
   - 23: {fileID: 224416120}
   - 61: {fileID: 224416119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1368,7 @@ GameObject:
   - 33: {fileID: 244176357}
   - 23: {fileID: 244176356}
   - 61: {fileID: 244176355}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1445,7 @@ GameObject:
   - 33: {fileID: 260142297}
   - 23: {fileID: 260142296}
   - 61: {fileID: 260142295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,7 +1522,7 @@ GameObject:
   - 33: {fileID: 264256555}
   - 23: {fileID: 264256554}
   - 61: {fileID: 264256553}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1592,7 +1596,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 267576984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1623,7 +1627,7 @@ GameObject:
   - 4: {fileID: 277840722}
   - 33: {fileID: 277840724}
   - 23: {fileID: 277840723}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1690,7 @@ GameObject:
   - 33: {fileID: 284717628}
   - 23: {fileID: 284717627}
   - 61: {fileID: 284717626}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1762,7 +1766,7 @@ GameObject:
   - 4: {fileID: 285435089}
   - 33: {fileID: 285435091}
   - 23: {fileID: 285435090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1898,7 +1902,7 @@ GameObject:
   - 33: {fileID: 289535321}
   - 23: {fileID: 289535320}
   - 61: {fileID: 289535319}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1972,7 +1976,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 290457950}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2003,7 +2007,7 @@ GameObject:
   - 33: {fileID: 291049098}
   - 23: {fileID: 291049097}
   - 61: {fileID: 291049096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2079,7 +2083,7 @@ GameObject:
   - 4: {fileID: 300759209}
   - 33: {fileID: 300759211}
   - 23: {fileID: 300759210}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2142,7 +2146,7 @@ GameObject:
   - 33: {fileID: 333382513}
   - 23: {fileID: 333382512}
   - 61: {fileID: 333382511}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2218,7 +2222,7 @@ GameObject:
   - 4: {fileID: 351840851}
   - 33: {fileID: 351840853}
   - 23: {fileID: 351840852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2281,7 +2285,7 @@ GameObject:
   - 33: {fileID: 369411881}
   - 23: {fileID: 369411880}
   - 61: {fileID: 369411879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2462,7 +2466,7 @@ GameObject:
   - 33: {fileID: 385493970}
   - 23: {fileID: 385493969}
   - 61: {fileID: 385493968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2540,7 +2544,7 @@ GameObject:
   - 23: {fileID: 387069250}
   - 114: {fileID: 387069249}
   - 61: {fileID: 387069251}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,7 +2750,7 @@ GameObject:
   - 4: {fileID: 397329726}
   - 33: {fileID: 397329728}
   - 23: {fileID: 397329727}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2809,7 +2813,7 @@ GameObject:
   - 33: {fileID: 398256811}
   - 23: {fileID: 398256810}
   - 61: {fileID: 398256809}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4475,7 +4479,7 @@ GameObject:
   - 4: {fileID: 437506977}
   - 33: {fileID: 437506979}
   - 23: {fileID: 437506978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4597,7 +4601,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 456291241}
   - 61: {fileID: 456291242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Parkour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4683,7 +4687,7 @@ GameObject:
   - 33: {fileID: 462487838}
   - 23: {fileID: 462487837}
   - 61: {fileID: 462487836}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4760,7 +4764,7 @@ GameObject:
   - 33: {fileID: 467113548}
   - 23: {fileID: 467113547}
   - 61: {fileID: 467113546}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4837,7 +4841,7 @@ GameObject:
   - 33: {fileID: 473320414}
   - 23: {fileID: 473320413}
   - 61: {fileID: 473320412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4987,7 +4991,7 @@ GameObject:
   - 33: {fileID: 476636858}
   - 23: {fileID: 476636856}
   - 61: {fileID: 476636857}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5122,7 +5126,7 @@ GameObject:
   - 33: {fileID: 485230885}
   - 23: {fileID: 485230884}
   - 61: {fileID: 485230883}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5200,7 +5204,7 @@ GameObject:
   - 23: {fileID: 504907689}
   - 61: {fileID: 504907688}
   - 114: {fileID: 504907687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LevelDeathLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5288,7 +5292,7 @@ GameObject:
   - 33: {fileID: 507103908}
   - 23: {fileID: 507103907}
   - 61: {fileID: 507103906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5365,7 +5369,7 @@ GameObject:
   - 33: {fileID: 513691398}
   - 65: {fileID: 513691397}
   - 23: {fileID: 513691396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5439,7 +5443,7 @@ GameObject:
   - 4: {fileID: 513961961}
   - 33: {fileID: 513961963}
   - 23: {fileID: 513961962}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5676,7 +5680,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 537864070}
   - 61: {fileID: 537864071}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Parkour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5729,7 +5733,7 @@ GameObject:
   - 4: {fileID: 548427781}
   - 33: {fileID: 548427783}
   - 23: {fileID: 548427782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5792,7 +5796,7 @@ GameObject:
   - 33: {fileID: 557341221}
   - 23: {fileID: 557341220}
   - 61: {fileID: 557341219}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5858,6 +5862,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 557341217}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &559344232 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+  m_PrefabInternal: {fileID: 653274242}
 --- !u!1 &572017758
 GameObject:
   m_ObjectHideFlags: 0
@@ -5869,7 +5877,7 @@ GameObject:
   - 33: {fileID: 572017762}
   - 23: {fileID: 572017761}
   - 61: {fileID: 572017760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5944,7 +5952,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11481720, guid: 009039cfab37b074d8548fd7a59fecda, type: 2}
       propertyPath: m_FootstepSounds.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 454864, guid: 009039cfab37b074d8548fd7a59fecda, type: 2}
       propertyPath: m_LocalPosition.x
@@ -6006,6 +6014,14 @@ Prefab:
       propertyPath: m_FootstepSounds.Array.data[3]
       value: 
       objectReference: {fileID: 8300000, guid: 8b2aad8cb07aa9a408a82299882f917a, type: 3}
+    - target: {fileID: 11481720, guid: 009039cfab37b074d8548fd7a59fecda, type: 2}
+      propertyPath: m_FootstepSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: bb0f7c283f2309d4a9240ba8fa857c03, type: 3}
+    - target: {fileID: 11481720, guid: 009039cfab37b074d8548fd7a59fecda, type: 2}
+      propertyPath: cd
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 009039cfab37b074d8548fd7a59fecda, type: 2}
   m_IsPrefabParent: 0
@@ -6097,7 +6113,7 @@ GameObject:
   - 33: {fileID: 584570679}
   - 23: {fileID: 584570678}
   - 61: {fileID: 584570677}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Left Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6163,6 +6179,48 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 584570675}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &585304409
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2040699388}
+    m_Modifications:
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 106.39449
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -498.31998
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &597556289
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,7 +6232,7 @@ GameObject:
   - 33: {fileID: 597556293}
   - 23: {fileID: 597556292}
   - 61: {fileID: 597556291}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6251,7 +6309,7 @@ GameObject:
   - 33: {fileID: 608649856}
   - 23: {fileID: 608649855}
   - 61: {fileID: 608649854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Left Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6327,7 +6385,7 @@ GameObject:
   - 4: {fileID: 614571197}
   - 33: {fileID: 614571200}
   - 23: {fileID: 614571198}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6422,7 +6480,7 @@ GameObject:
   - 4: {fileID: 630007977}
   - 33: {fileID: 630007979}
   - 23: {fileID: 630007978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6484,7 +6542,7 @@ GameObject:
   - 4: {fileID: 644566995}
   - 33: {fileID: 644566997}
   - 23: {fileID: 644566996}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6568,6 +6626,48 @@ Transform:
   - {fileID: 456291241}
   m_Father: {fileID: 1054246106}
   m_RootOrder: 1
+--- !u!1001 &653274242
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2040699388}
+    m_Modifications:
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 185.28914
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -481.76996
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &654571972
 GameObject:
   m_ObjectHideFlags: 0
@@ -6578,7 +6678,7 @@ GameObject:
   - 4: {fileID: 654571973}
   - 33: {fileID: 654571975}
   - 23: {fileID: 654571974}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6641,7 +6741,7 @@ GameObject:
   - 33: {fileID: 660054663}
   - 23: {fileID: 660054662}
   - 61: {fileID: 660054661}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6718,7 +6818,7 @@ GameObject:
   - 33: {fileID: 662720896}
   - 23: {fileID: 662720895}
   - 61: {fileID: 662720894}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6792,7 +6892,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 664107038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PhysicalMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6825,7 +6925,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 671853872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6887,7 +6987,7 @@ GameObject:
   - 4: {fileID: 710090314}
   - 33: {fileID: 710090316}
   - 23: {fileID: 710090315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6950,7 +7050,7 @@ GameObject:
   - 33: {fileID: 714237617}
   - 23: {fileID: 714237615}
   - 61: {fileID: 714237616}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7024,7 +7124,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 721747366}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7053,7 +7153,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 724195519}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7103,7 +7203,7 @@ GameObject:
   - 33: {fileID: 741337127}
   - 23: {fileID: 741337126}
   - 61: {fileID: 741337125}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7325,7 +7425,7 @@ GameObject:
   - 4: {fileID: 766701702}
   - 33: {fileID: 766701705}
   - 23: {fileID: 766701703}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7388,7 +7488,7 @@ GameObject:
   - 33: {fileID: 766885165}
   - 23: {fileID: 766885164}
   - 61: {fileID: 766885163}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7465,7 +7565,7 @@ GameObject:
   - 33: {fileID: 767928913}
   - 23: {fileID: 767928912}
   - 61: {fileID: 767928911}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7531,124 +7631,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 767928909}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &775207329
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 775207330}
-  - 212: {fileID: 775207332}
-  - 61: {fileID: 775207331}
-  - 50: {fileID: 775207333}
-  - 114: {fileID: 775207335}
-  - 61: {fileID: 775207334}
-  m_Layer: 0
-  m_Name: Knight1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &775207330
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 775207329}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 106.95, y: -498.768, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2040699388}
-  m_RootOrder: 0
---- !u!61 &775207331
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 775207329}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0042266846, y: -0.0033874512}
-  serializedVersion: 2
-  m_Size: {x: 1.3591292, y: 1.3977821}
---- !u!212 &775207332
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 775207329}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd3e3f76fc4c431469709e12839a06ce, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!50 &775207333
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 775207329}
-  m_UseAutoMass: 0
-  m_Mass: 40
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &775207334
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 775207329}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 20, y: 2}
---- !u!114 &775207335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 775207329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a0c05655cb0a7b42bcff8f24eb3b1e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &778012038
 GameObject:
   m_ObjectHideFlags: 0
@@ -7659,7 +7641,7 @@ GameObject:
   - 4: {fileID: 778012039}
   - 33: {fileID: 778012041}
   - 23: {fileID: 778012040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7723,7 +7705,7 @@ GameObject:
   - 23: {fileID: 778181050}
   - 114: {fileID: 778181049}
   - 61: {fileID: 778181048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7812,7 +7794,7 @@ GameObject:
   - 33: {fileID: 780841956}
   - 23: {fileID: 780841955}
   - 61: {fileID: 780841954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7886,7 +7868,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 789165779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PhysicalMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7921,7 +7903,7 @@ GameObject:
   - 4: {fileID: 795684298}
   - 33: {fileID: 795684300}
   - 23: {fileID: 795684299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7984,7 +7966,7 @@ GameObject:
   - 33: {fileID: 803224449}
   - 23: {fileID: 803224448}
   - 61: {fileID: 803224447}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wood Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8060,7 +8042,7 @@ GameObject:
   - 4: {fileID: 806968787}
   - 33: {fileID: 806968789}
   - 23: {fileID: 806968788}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8123,7 +8105,7 @@ GameObject:
   - 33: {fileID: 808471723}
   - 23: {fileID: 808471721}
   - 61: {fileID: 808471722}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8197,7 +8179,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 822701138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Safehouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8246,7 +8228,7 @@ GameObject:
   - 33: {fileID: 825230986}
   - 23: {fileID: 825230985}
   - 61: {fileID: 825230984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8323,7 +8305,7 @@ GameObject:
   - 33: {fileID: 825751070}
   - 23: {fileID: 825751069}
   - 61: {fileID: 825751068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8401,7 +8383,7 @@ GameObject:
   - 23: {fileID: 826496497}
   - 61: {fileID: 826496496}
   - 114: {fileID: 826496495}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LevelDeathLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8565,7 +8547,7 @@ GameObject:
   - 4: {fileID: 872321165}
   - 33: {fileID: 872321167}
   - 23: {fileID: 872321166}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8627,7 +8609,7 @@ GameObject:
   - 4: {fileID: 873662115}
   - 33: {fileID: 873662117}
   - 23: {fileID: 873662116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8691,7 +8673,7 @@ GameObject:
   - 23: {fileID: 888210118}
   - 114: {fileID: 888210117}
   - 61: {fileID: 888210116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8779,7 +8761,7 @@ GameObject:
   - 4: {fileID: 895039443}
   - 33: {fileID: 895039445}
   - 23: {fileID: 895039444}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8842,7 +8824,7 @@ GameObject:
   - 33: {fileID: 897071562}
   - 23: {fileID: 897071561}
   - 61: {fileID: 897071560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8918,7 +8900,7 @@ GameObject:
   - 4: {fileID: 897372085}
   - 33: {fileID: 897372087}
   - 23: {fileID: 897372086}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8981,7 +8963,7 @@ GameObject:
   - 33: {fileID: 899187358}
   - 23: {fileID: 899187357}
   - 61: {fileID: 899187356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wood Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9058,7 +9040,7 @@ GameObject:
   - 33: {fileID: 902292104}
   - 23: {fileID: 902292103}
   - 61: {fileID: 902292102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9135,7 +9117,7 @@ GameObject:
   - 33: {fileID: 909467441}
   - 23: {fileID: 909467440}
   - 61: {fileID: 909467439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9212,7 +9194,7 @@ GameObject:
   - 33: {fileID: 910362042}
   - 23: {fileID: 910362041}
   - 61: {fileID: 910362040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9289,7 +9271,7 @@ GameObject:
   - 33: {fileID: 916896537}
   - 23: {fileID: 916896536}
   - 61: {fileID: 916896535}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9424,7 +9406,7 @@ GameObject:
   - 33: {fileID: 928120577}
   - 23: {fileID: 928120576}
   - 61: {fileID: 928120575}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9502,7 +9484,7 @@ GameObject:
   - 23: {fileID: 928247237}
   - 114: {fileID: 928247236}
   - 61: {fileID: 928247235}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9591,7 +9573,7 @@ GameObject:
   - 33: {fileID: 929190025}
   - 23: {fileID: 929190024}
   - 61: {fileID: 929190023}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9668,7 +9650,7 @@ GameObject:
   - 33: {fileID: 930415592}
   - 23: {fileID: 930415591}
   - 61: {fileID: 930415590}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9831,7 +9813,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 940174129}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9863,7 +9845,7 @@ GameObject:
   - 33: {fileID: 944949160}
   - 23: {fileID: 944949159}
   - 61: {fileID: 944949158}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9969,7 +9951,7 @@ GameObject:
   - 4: {fileID: 966740584}
   - 33: {fileID: 966740586}
   - 23: {fileID: 966740585}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10032,7 +10014,7 @@ GameObject:
   - 33: {fileID: 969266007}
   - 23: {fileID: 969266006}
   - 61: {fileID: 969266005}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10109,7 +10091,7 @@ GameObject:
   - 33: {fileID: 988810280}
   - 23: {fileID: 988810279}
   - 61: {fileID: 988810278}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10259,7 +10241,7 @@ GameObject:
   - 33: {fileID: 1012113914}
   - 23: {fileID: 1012113913}
   - 61: {fileID: 1012113912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10333,7 +10315,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1012304072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10362,7 +10344,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1016111155}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Safehouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10411,7 +10393,7 @@ GameObject:
   - 33: {fileID: 1027923146}
   - 23: {fileID: 1027923145}
   - 61: {fileID: 1027923144}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10487,7 +10469,7 @@ GameObject:
   - 4: {fileID: 1033826759}
   - 33: {fileID: 1033826762}
   - 23: {fileID: 1033826760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10550,7 +10532,7 @@ GameObject:
   - 33: {fileID: 1036321500}
   - 23: {fileID: 1036321498}
   - 61: {fileID: 1036321499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10626,7 +10608,7 @@ GameObject:
   - 4: {fileID: 1052280761}
   - 33: {fileID: 1052280763}
   - 23: {fileID: 1052280762}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10688,7 +10670,7 @@ GameObject:
   - 4: {fileID: 1052976919}
   - 33: {fileID: 1052976921}
   - 23: {fileID: 1052976920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10801,6 +10783,48 @@ Transform:
   - {fileID: 625577648}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1001 &1054707675
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2040699388}
+    m_Modifications:
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 134.5066
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -482.47998
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1060059279
 GameObject:
   m_ObjectHideFlags: 0
@@ -10812,7 +10836,7 @@ GameObject:
   - 33: {fileID: 1060059283}
   - 23: {fileID: 1060059281}
   - 61: {fileID: 1060059282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10889,7 +10913,7 @@ GameObject:
   - 33: {fileID: 1077174354}
   - 23: {fileID: 1077174352}
   - 61: {fileID: 1077174353}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10965,7 +10989,7 @@ GameObject:
   - 4: {fileID: 1081057679}
   - 33: {fileID: 1081057682}
   - 23: {fileID: 1081057680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11028,7 +11052,7 @@ GameObject:
   - 33: {fileID: 1082583450}
   - 23: {fileID: 1082583449}
   - 61: {fileID: 1082583448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11105,7 +11129,7 @@ GameObject:
   - 33: {fileID: 1090338344}
   - 23: {fileID: 1090338343}
   - 61: {fileID: 1090338342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11182,7 +11206,7 @@ GameObject:
   - 33: {fileID: 1094176604}
   - 23: {fileID: 1094176603}
   - 61: {fileID: 1094176602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11259,7 +11283,7 @@ GameObject:
   - 33: {fileID: 1106300889}
   - 23: {fileID: 1106300888}
   - 61: {fileID: 1106300887}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11435,7 +11459,7 @@ GameObject:
   - 23: {fileID: 1150136674}
   - 114: {fileID: 1150136673}
   - 61: {fileID: 1150136672}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11524,7 +11548,7 @@ GameObject:
   - 33: {fileID: 1175961076}
   - 23: {fileID: 1175961075}
   - 61: {fileID: 1175961074}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11601,7 +11625,7 @@ GameObject:
   - 33: {fileID: 1199447698}
   - 23: {fileID: 1199447697}
   - 61: {fileID: 1199447696}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11825,7 +11849,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1212946357}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11875,7 +11899,7 @@ GameObject:
   - 33: {fileID: 1219077961}
   - 23: {fileID: 1219077960}
   - 61: {fileID: 1219077959}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11952,7 +11976,7 @@ GameObject:
   - 33: {fileID: 1229045309}
   - 65: {fileID: 1229045308}
   - 23: {fileID: 1229045307}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12026,7 +12050,7 @@ GameObject:
   - 4: {fileID: 1237223725}
   - 33: {fileID: 1237223728}
   - 23: {fileID: 1237223727}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12101,7 +12125,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 328.34937
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -12168,7 +12192,7 @@ GameObject:
   - 23: {fileID: 1250378776}
   - 114: {fileID: 1250378775}
   - 61: {fileID: 1250378774}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12312,7 +12336,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1265531351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Safehouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12360,7 +12384,7 @@ GameObject:
   - 4: {fileID: 1294764492}
   - 33: {fileID: 1294764494}
   - 23: {fileID: 1294764493}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12423,7 +12447,7 @@ GameObject:
   - 33: {fileID: 1299600124}
   - 23: {fileID: 1299600123}
   - 61: {fileID: 1299600122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12500,7 +12524,7 @@ GameObject:
   - 33: {fileID: 1303868063}
   - 23: {fileID: 1303868062}
   - 61: {fileID: 1303868061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12577,7 +12601,7 @@ GameObject:
   - 33: {fileID: 1306215298}
   - 23: {fileID: 1306215296}
   - 61: {fileID: 1306215297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12653,7 +12677,7 @@ GameObject:
   - 4: {fileID: 1326927103}
   - 33: {fileID: 1326927105}
   - 23: {fileID: 1326927104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12716,7 +12740,7 @@ GameObject:
   - 33: {fileID: 1330827257}
   - 23: {fileID: 1330827256}
   - 61: {fileID: 1330827255}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12790,7 +12814,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1332195411}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12912,7 +12936,7 @@ GameObject:
   - 4: {fileID: 1363943571}
   - 33: {fileID: 1363943573}
   - 23: {fileID: 1363943572}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12975,7 +12999,7 @@ GameObject:
   - 33: {fileID: 1385128466}
   - 65: {fileID: 1385128465}
   - 23: {fileID: 1385128464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13050,7 +13074,7 @@ GameObject:
   - 33: {fileID: 1387115312}
   - 23: {fileID: 1387115311}
   - 61: {fileID: 1387115310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13126,7 +13150,7 @@ GameObject:
   - 4: {fileID: 1389606350}
   - 33: {fileID: 1389606352}
   - 23: {fileID: 1389606351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13189,7 +13213,7 @@ GameObject:
   - 33: {fileID: 1391789789}
   - 23: {fileID: 1391789788}
   - 61: {fileID: 1391789787}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13266,7 +13290,7 @@ GameObject:
   - 33: {fileID: 1393339200}
   - 23: {fileID: 1393339199}
   - 61: {fileID: 1393339198}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13343,7 +13367,7 @@ GameObject:
   - 33: {fileID: 1401831493}
   - 23: {fileID: 1401831492}
   - 61: {fileID: 1401831491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13420,7 +13444,7 @@ GameObject:
   - 33: {fileID: 1404518722}
   - 23: {fileID: 1404518721}
   - 61: {fileID: 1404518720}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13486,6 +13510,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404518718}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1419031204 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 481848, guid: 79502b41ed0a21b40b15018b4859b9ee, type: 2}
+  m_PrefabInternal: {fileID: 585304409}
 --- !u!1 &1427329818
 GameObject:
   m_ObjectHideFlags: 0
@@ -13494,7 +13522,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1427329819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PhysicalMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13530,7 +13558,7 @@ GameObject:
   - 33: {fileID: 1441576108}
   - 23: {fileID: 1441576107}
   - 61: {fileID: 1441576106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13606,7 +13634,7 @@ GameObject:
   - 4: {fileID: 1470381673}
   - 33: {fileID: 1470381675}
   - 23: {fileID: 1470381674}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElTop2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13669,7 +13697,7 @@ GameObject:
   - 33: {fileID: 1478151785}
   - 23: {fileID: 1478151784}
   - 61: {fileID: 1478151783}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13746,7 +13774,7 @@ GameObject:
   - 33: {fileID: 1482736596}
   - 23: {fileID: 1482736595}
   - 61: {fileID: 1482736594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13941,7 +13969,7 @@ GameObject:
   - 33: {fileID: 1512030122}
   - 23: {fileID: 1512030121}
   - 61: {fileID: 1512030120}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14018,7 +14046,7 @@ GameObject:
   - 33: {fileID: 1514493493}
   - 23: {fileID: 1514493491}
   - 61: {fileID: 1514493492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14095,7 +14123,7 @@ GameObject:
   - 33: {fileID: 1527208923}
   - 23: {fileID: 1527208922}
   - 61: {fileID: 1527208921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14172,7 +14200,7 @@ GameObject:
   - 33: {fileID: 1527736951}
   - 23: {fileID: 1527736950}
   - 61: {fileID: 1527736949}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14249,7 +14277,7 @@ GameObject:
   - 33: {fileID: 1539889323}
   - 23: {fileID: 1539889322}
   - 61: {fileID: 1539889321}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14355,7 +14383,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1548364490}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14387,7 +14415,7 @@ GameObject:
   - 33: {fileID: 1562065459}
   - 23: {fileID: 1562065458}
   - 61: {fileID: 1562065457}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14536,7 +14564,7 @@ GameObject:
   - 4: {fileID: 1619657740}
   - 33: {fileID: 1619657742}
   - 23: {fileID: 1619657741}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14599,7 +14627,7 @@ GameObject:
   - 33: {fileID: 1621552269}
   - 23: {fileID: 1621552268}
   - 61: {fileID: 1621552267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14676,7 +14704,7 @@ GameObject:
   - 33: {fileID: 1635495013}
   - 23: {fileID: 1635495012}
   - 61: {fileID: 1635495011}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14825,7 +14853,7 @@ GameObject:
   - 4: {fileID: 1644502181}
   - 33: {fileID: 1644502183}
   - 23: {fileID: 1644502182}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14889,7 +14917,7 @@ GameObject:
   - 23: {fileID: 1658531985}
   - 114: {fileID: 1658531984}
   - 61: {fileID: 1658531983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14978,7 +15006,7 @@ GameObject:
   - 33: {fileID: 1658876640}
   - 23: {fileID: 1658876639}
   - 61: {fileID: 1658876638}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15055,7 +15083,7 @@ GameObject:
   - 33: {fileID: 1691879552}
   - 23: {fileID: 1691879551}
   - 61: {fileID: 1691879550}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15121,124 +15149,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1691879548}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1698894611
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1698894612}
-  - 212: {fileID: 1698894617}
-  - 61: {fileID: 1698894616}
-  - 50: {fileID: 1698894615}
-  - 114: {fileID: 1698894614}
-  - 61: {fileID: 1698894613}
-  m_Layer: 0
-  m_Name: Knight1 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1698894612
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1698894611}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 186.79, y: -482.61, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2040699388}
-  m_RootOrder: 2
---- !u!61 &1698894613
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1698894611}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 20, y: 2}
---- !u!114 &1698894614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1698894611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a0c05655cb0a7b42bcff8f24eb3b1e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!50 &1698894615
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1698894611}
-  m_UseAutoMass: 0
-  m_Mass: 40
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &1698894616
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1698894611}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0042266846, y: -0.0033874512}
-  serializedVersion: 2
-  m_Size: {x: 1.3591292, y: 1.3977821}
---- !u!212 &1698894617
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1698894611}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd3e3f76fc4c431469709e12839a06ce, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1703106090
 GameObject:
   m_ObjectHideFlags: 0
@@ -15250,7 +15160,7 @@ GameObject:
   - 33: {fileID: 1703106094}
   - 23: {fileID: 1703106093}
   - 61: {fileID: 1703106092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15327,7 +15237,7 @@ GameObject:
   - 33: {fileID: 1710867079}
   - 23: {fileID: 1710867078}
   - 61: {fileID: 1710867077}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15404,7 +15314,7 @@ GameObject:
   - 33: {fileID: 1716487204}
   - 23: {fileID: 1716487203}
   - 61: {fileID: 1716487202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15481,7 +15391,7 @@ GameObject:
   - 33: {fileID: 1723497737}
   - 23: {fileID: 1723497736}
   - 61: {fileID: 1723497735}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15558,7 +15468,7 @@ GameObject:
   - 33: {fileID: 1733374331}
   - 23: {fileID: 1733374330}
   - 61: {fileID: 1733374329}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15634,7 +15544,7 @@ GameObject:
   - 4: {fileID: 1734882357}
   - 33: {fileID: 1734882360}
   - 23: {fileID: 1734882358}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15694,7 +15604,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1742559945}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15725,7 +15635,7 @@ GameObject:
   - 4: {fileID: 1753448772}
   - 33: {fileID: 1753448775}
   - 23: {fileID: 1753448773}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15788,7 +15698,7 @@ GameObject:
   - 33: {fileID: 1754617077}
   - 23: {fileID: 1754617076}
   - 61: {fileID: 1754617075}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15865,7 +15775,7 @@ GameObject:
   - 33: {fileID: 1754728368}
   - 23: {fileID: 1754728367}
   - 61: {fileID: 1754728366}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15942,7 +15852,7 @@ GameObject:
   - 33: {fileID: 1761958295}
   - 23: {fileID: 1761958294}
   - 61: {fileID: 1761958293}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16019,7 +15929,7 @@ GameObject:
   - 33: {fileID: 1773376643}
   - 23: {fileID: 1773376642}
   - 61: {fileID: 1773376641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16096,7 +16006,7 @@ GameObject:
   - 33: {fileID: 1773610158}
   - 23: {fileID: 1773610157}
   - 61: {fileID: 1773610156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16172,7 +16082,7 @@ GameObject:
   - 4: {fileID: 1775831841}
   - 33: {fileID: 1775831843}
   - 23: {fileID: 1775831842}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16235,7 +16145,7 @@ GameObject:
   - 33: {fileID: 1776685898}
   - 23: {fileID: 1776685897}
   - 61: {fileID: 1776685896}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16312,7 +16222,7 @@ GameObject:
   - 33: {fileID: 1785158126}
   - 23: {fileID: 1785158125}
   - 61: {fileID: 1785158124}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16496,124 +16406,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1813801444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1813801445}
-  - 212: {fileID: 1813801450}
-  - 61: {fileID: 1813801449}
-  - 50: {fileID: 1813801448}
-  - 114: {fileID: 1813801447}
-  - 61: {fileID: 1813801446}
-  m_Layer: 0
-  m_Name: Knight1 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1813801445
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813801444}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 135.258, y: -482.61, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2040699388}
-  m_RootOrder: 1
---- !u!61 &1813801446
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813801444}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 20, y: 2}
---- !u!114 &1813801447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813801444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a0c05655cb0a7b42bcff8f24eb3b1e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!50 &1813801448
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813801444}
-  m_UseAutoMass: 0
-  m_Mass: 40
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &1813801449
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813801444}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.0042266846, y: -0.0033874512}
-  serializedVersion: 2
-  m_Size: {x: 1.3591292, y: 1.3977821}
---- !u!212 &1813801450
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813801444}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd3e3f76fc4c431469709e12839a06ce, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &1819619785
 GameObject:
   m_ObjectHideFlags: 0
@@ -16625,7 +16417,7 @@ GameObject:
   - 33: {fileID: 1819619789}
   - 23: {fileID: 1819619788}
   - 61: {fileID: 1819619787}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16702,7 +16494,7 @@ GameObject:
   - 33: {fileID: 1829179436}
   - 23: {fileID: 1829179435}
   - 61: {fileID: 1829179434}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16779,7 +16571,7 @@ GameObject:
   - 33: {fileID: 1874977342}
   - 23: {fileID: 1874977341}
   - 61: {fileID: 1874977340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16855,7 +16647,7 @@ GameObject:
   - 4: {fileID: 1876927221}
   - 33: {fileID: 1876927223}
   - 23: {fileID: 1876927222}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16916,7 +16708,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1878569910}
   - 61: {fileID: 1878569911}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Parkour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16970,7 +16762,7 @@ GameObject:
   - 33: {fileID: 1894241907}
   - 23: {fileID: 1894241906}
   - 61: {fileID: 1894241905}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17047,7 +16839,7 @@ GameObject:
   - 33: {fileID: 1900081129}
   - 23: {fileID: 1900081128}
   - 61: {fileID: 1900081127}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17124,7 +16916,7 @@ GameObject:
   - 33: {fileID: 1908792042}
   - 23: {fileID: 1908792041}
   - 61: {fileID: 1908792040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17201,7 +16993,7 @@ GameObject:
   - 33: {fileID: 1927979118}
   - 23: {fileID: 1927979117}
   - 61: {fileID: 1927979116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17396,7 +17188,7 @@ GameObject:
   - 33: {fileID: 1936903000}
   - 23: {fileID: 1936902999}
   - 61: {fileID: 1936902998}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17567,7 +17359,7 @@ GameObject:
   - 4: {fileID: 1952462336}
   - 33: {fileID: 1952462339}
   - 23: {fileID: 1952462338}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17725,7 +17517,7 @@ GameObject:
   - 33: {fileID: 1986456173}
   - 23: {fileID: 1986456172}
   - 61: {fileID: 1986456171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17937,7 +17729,7 @@ GameObject:
   - 33: {fileID: 2008867818}
   - 23: {fileID: 2008867817}
   - 61: {fileID: 2008867816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18015,7 +17807,7 @@ GameObject:
   - 23: {fileID: 2013677158}
   - 114: {fileID: 2013677157}
   - 61: {fileID: 2013677156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElBottom1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18118,9 +17910,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 775207330}
-  - {fileID: 1813801445}
-  - {fileID: 1698894612}
+  - {fileID: 1419031204}
+  - {fileID: 115693300}
+  - {fileID: 559344232}
   m_Father: {fileID: 651783449}
   m_RootOrder: 2
 --- !u!1 &2053505830
@@ -18134,7 +17926,7 @@ GameObject:
   - 33: {fileID: 2053505834}
   - 23: {fileID: 2053505833}
   - 61: {fileID: 2053505832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18211,7 +18003,7 @@ GameObject:
   - 33: {fileID: 2054512094}
   - 23: {fileID: 2054512093}
   - 61: {fileID: 2054512092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Start wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18288,7 +18080,7 @@ GameObject:
   - 33: {fileID: 2064369821}
   - 23: {fileID: 2064369820}
   - 61: {fileID: 2064369819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18364,7 +18156,7 @@ GameObject:
   - 4: {fileID: 2079684303}
   - 33: {fileID: 2079684305}
   - 23: {fileID: 2079684304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18427,7 +18219,7 @@ GameObject:
   - 33: {fileID: 2087933563}
   - 23: {fileID: 2087933562}
   - 61: {fileID: 2087933561}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18504,7 +18296,7 @@ GameObject:
   - 33: {fileID: 2098767193}
   - 23: {fileID: 2098767192}
   - 61: {fileID: 2098767191}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18581,7 +18373,7 @@ GameObject:
   - 33: {fileID: 2108266678}
   - 23: {fileID: 2108266677}
   - 61: {fileID: 2108266676}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wood Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18655,7 +18447,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2108459040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18686,7 +18478,7 @@ GameObject:
   - 4: {fileID: 2112571759}
   - 33: {fileID: 2112571762}
   - 23: {fileID: 2112571760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18749,7 +18541,7 @@ GameObject:
   - 33: {fileID: 2113324743}
   - 23: {fileID: 2113324742}
   - 61: {fileID: 2113324741}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Left Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18979,7 +18771,7 @@ GameObject:
   - 33: {fileID: 2142368480}
   - 23: {fileID: 2142368478}
   - 61: {fileID: 2142368479}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
