@@ -10,8 +10,8 @@ public class Entity : MonoBehaviour
     private static int ID;
 
     private int id;
-    public int health;
-    public int damage;
+    public int health = 1;
+    public int damage = 1;
     public float attackTime = 0.4f;
 
     protected Animator anim;
@@ -39,7 +39,19 @@ public class Entity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Check if health is 0
+        if (health == 0)
+        {
+            if (type == EntityType.PLAYER)
+            {
+                //Kill player
 
+            }
+            else
+            {
+                //Kill enemy
+            }
+        }
     }
 
     protected void Attack()
