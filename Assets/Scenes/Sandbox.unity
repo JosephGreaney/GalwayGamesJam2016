@@ -758,7 +758,7 @@ GameObject:
   - 114: {fileID: 387069249}
   - 61: {fileID: 387069251}
   m_Layer: 0
-  m_Name: ElBottom1
+  m_Name: ElBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -784,9 +784,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 387069247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51e4842d5229dee46b2a76f91768bbec, type: 3}
+  m_Script: {fileID: 11500000, guid: 047d476d848f5054bb3cb0dd6c96c84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  farEnd: {fileID: 1052280761}
 --- !u!23 &387069250
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2522,7 +2523,7 @@ Transform:
   - {fileID: 2142368477}
   - {fileID: 1306215295}
   m_Father: {fileID: 651783449}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!61 &456291242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3068,6 +3069,7 @@ Transform:
   - {fileID: 704687574}
   - {fileID: 664107038}
   - {fileID: 2040699388}
+  - {fileID: 1952759190}
   - {fileID: 456291241}
   m_Father: {fileID: 1054246106}
   m_RootOrder: 1
@@ -3178,7 +3180,6 @@ Transform:
   - {fileID: 66883483}
   - {fileID: 721747366}
   - {fileID: 671853872}
-  - {fileID: 1952759190}
   - {fileID: 1012304072}
   m_Father: {fileID: 651783449}
   m_RootOrder: 1
@@ -4462,7 +4463,7 @@ GameObject:
   - 114: {fileID: 888210117}
   - 61: {fileID: 888210116}
   m_Layer: 0
-  m_Name: ElBottom1
+  m_Name: ElBottom2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4502,9 +4503,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 888210114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51e4842d5229dee46b2a76f91768bbec, type: 3}
+  m_Script: {fileID: 11500000, guid: 047d476d848f5054bb3cb0dd6c96c84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  farEnd: {fileID: 1470381673}
 --- !u!23 &888210118
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5129,7 +5131,7 @@ Transform:
   - {fileID: 888210115}
   - {fileID: 1470381673}
   m_Father: {fileID: 664107038}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &1033826758
 GameObject:
   m_ObjectHideFlags: 0
@@ -5280,7 +5282,7 @@ GameObject:
   - 33: {fileID: 1052280763}
   - 23: {fileID: 1052280762}
   m_Layer: 0
-  m_Name: ElTop1
+  m_Name: ElTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5784,9 +5786,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1150136670}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51e4842d5229dee46b2a76f91768bbec, type: 3}
+  m_Script: {fileID: 11500000, guid: 047d476d848f5054bb3cb0dd6c96c84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  farEnd: {fileID: 966740584}
 --- !u!23 &1150136674
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6608,7 +6611,7 @@ GameObject:
   - 33: {fileID: 1470381675}
   - 23: {fileID: 1470381674}
   m_Layer: 0
-  m_Name: ElTop1
+  m_Name: ElTop2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7729,8 +7732,8 @@ RectTransform:
   - {fileID: 88928902}
   - {fileID: 750675435}
   - {fileID: 1207005888}
-  m_Father: {fileID: 664107038}
-  m_RootOrder: 5
+  m_Father: {fileID: 651783449}
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 278, y: 229}
