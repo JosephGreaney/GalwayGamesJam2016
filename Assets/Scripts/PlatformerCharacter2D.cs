@@ -35,15 +35,13 @@ public class PlatformerCharacter2D : Entity
 
     private void FixedUpdate()
     {
-        
+        m_Grounded = false;
         // This is used to check if the feet of the player are touching ground.
         Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
                 m_Grounded = true;
-            else
-                m_Grounded = false;
             Debug.Log("Player Grounded: " + colliders[i].gameObject);
         }
 
