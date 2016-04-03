@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Bob_Controller
+  m_Name: Bob_raygun
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: moving
@@ -318,7 +318,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: RunnerAnimation
+  m_Name: Running
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -333,7 +333,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f4eedcbdcd2a2a544aecc582d9d5557b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 23ae619c36da2ba418edae37121b1230, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -358,7 +358,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9bb4c7707a966a5459df317503451bca, type: 2}
+  m_Motion: {fileID: 7400000, guid: a92740016701f4fccb3bce71e5651fd4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -409,7 +409,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9595fd2c445aba44e989d480759f32e5, type: 2}
+  m_Motion: {fileID: 7400000, guid: 47bee03b6a0ae4a3f871fb8c70389613, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

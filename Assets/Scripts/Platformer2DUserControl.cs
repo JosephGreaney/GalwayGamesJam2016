@@ -11,7 +11,7 @@ namespace UnityStandardAssets._2D
         private bool m_Jump;
         private bool m_Attack;
         private int warpDest = -1;     //warpDest is -1 until pressed
-
+        
         private void Awake()
         {
             m_Character = GetComponent<PlatformerCharacter2D>();
