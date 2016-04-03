@@ -16,9 +16,11 @@ public class Entity : MonoBehaviour
     protected bool moving;
     protected bool falling;
     protected bool rising;
+    protected bool attacking;
 
     int runHash = Animator.StringToHash("RunnerAnimation");
     int standHash = Animator.StringToHash("Standing");
+    int attackingHash = Animator.StringToHash("Attacking");
 
     protected EntityType type;
     public enum EntityType
@@ -40,8 +42,23 @@ public class Entity : MonoBehaviour
 
     protected void Attack()
     {
+        if (!attacking)
+        {
+            print("attacking true");
+            attacking = true;
+            anim.SetBool("attacking", true);
+           // print(type + " ID: " + id + " attacked\n");
+            StartCoroutine("AttackCooldown");
+        }
+        
+    }
 
-        print(type + " ID: " + id + " attacked\n");
+    IEnumerator AttackCooldown()
+    {
+        print("attack false");
+        yield return new WaitForSeconds(0.4f);
+        attacking = false;
+        anim.SetBool("attacking", false);
     }
 
     protected void Move(bool grounded, bool jump, Rigidbody2D rigid)

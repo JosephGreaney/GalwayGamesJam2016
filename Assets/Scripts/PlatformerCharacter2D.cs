@@ -17,7 +17,6 @@ public class PlatformerCharacter2D : Entity
     private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
     const float k_GroundedRadius = .1f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
-    private bool m_Attacking;
     public bool warpCooldown;
     public int cdRemaining;
     public const int cd = 3;
@@ -172,7 +171,7 @@ public class PlatformerCharacter2D : Entity
 
     public void Attack(bool m_Attack)
     {
-        if(m_Attack && !m_Attacking)
+        if(m_Attack && !attacking)
             base.Attack();
     }
 }
