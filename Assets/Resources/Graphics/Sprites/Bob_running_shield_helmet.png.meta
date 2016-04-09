@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 5bf5363b1374a7844bd88a8e1078e725
+timeCreated: 1459638031
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_running_shield_helmet_0
+    21300002: Bob_running_shield_helmet_1
+    21300004: Bob_running_shield_helmet_2
+    21300006: Bob_running_shield_helmet_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_running_shield_helmet_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 20
+        width: 152
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 84}
+        - {x: -76, y: -84}
+        - {x: 76, y: -84}
+        - {x: 76, y: 69}
+        - {x: 73, y: 84}
+    - name: Bob_running_shield_helmet_1
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 16
+        width: 152
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84.5}
+        - {x: -76, y: 40.5}
+        - {x: -76, y: -39.5}
+        - {x: -51, y: -84.5}
+        - {x: 63, y: -84.5}
+        - {x: 76, y: -51.5}
+        - {x: 76, y: 52.5}
+        - {x: 63, y: 84.5}
+    - name: Bob_running_shield_helmet_2
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 12
+        width: 151
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 83.5}
+        - {x: -73.5, y: 48.5}
+        - {x: -75.5, y: 21.5}
+        - {x: -75.5, y: -15.5}
+        - {x: -64.5, y: -19.5}
+        - {x: -46.5, y: -83.5}
+        - {x: 68.5, y: -83.5}
+        - {x: 75.5, y: -65.5}
+        - {x: 75.5, y: 56.5}
+        - {x: 50.5, y: 83.5}
+    - name: Bob_running_shield_helmet_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 16
+        width: 152
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 83.5}
+        - {x: -76, y: 54.5}
+        - {x: -76, y: -47.5}
+        - {x: -51, y: -83.5}
+        - {x: -12, y: -83.5}
+        - {x: -12, y: -79.5}
+        - {x: -11, y: -74.5}
+        - {x: -8, y: -72.5}
+        - {x: 19, y: -83.5}
+        - {x: 54, y: -83.5}
+        - {x: 76, y: -62.5}
+        - {x: 76, y: 7.5}
+        - {x: 56, y: 83.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

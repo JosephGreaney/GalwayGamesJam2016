@@ -5,7 +5,7 @@ public class Elevator : MonoBehaviour
     public Transform farEnd;
     private Vector3 frometh;
     private Vector3 untoeth;
-    private float secondsForOneLength = 12f;
+    private float secondsForOneLength = 6f;
 
     void Start()
     {
@@ -13,7 +13,7 @@ public class Elevator : MonoBehaviour
         untoeth = farEnd.position;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         transform.position = Vector3.Lerp(frometh, untoeth,
          Mathf.SmoothStep(0f, 1f,

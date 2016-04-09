@@ -10,6 +10,7 @@ public class Caveman : Enemy {
         movespeed = 4f;
         fireRange = 3f;
         attackTime = 1f;
+        health = 1;
 	}
 	
 	// Update is called once per frame

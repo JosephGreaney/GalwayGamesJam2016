@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 0812a46a9be799544b276b1c14979c5f
+timeCreated: 1459688265
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_attack_club_jetpack_0
+    21300002: Bob_attack_club_jetpack_1
+    21300004: Bob_attack_club_jetpack_2
+    21300006: Bob_attack_club_jetpack_3
+    21300008: Bob_attack_club_jetpack_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_attack_club_jetpack_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 35
+        width: 202
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 89}
+        - {x: -40, y: 63}
+        - {x: -101, y: -22}
+        - {x: -101, y: -89}
+        - {x: 13, y: -89}
+        - {x: 53, y: -79}
+        - {x: 101, y: -26}
+        - {x: 101, y: 89}
+    - name: Bob_attack_club_jetpack_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 163
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 83.5}
+        - {x: -55.5, y: 73.5}
+        - {x: -81.5, y: -34.5}
+        - {x: -81.5, y: -83.5}
+        - {x: 81.5, y: -83.5}
+        - {x: 81.5, y: 83.5}
+    - name: Bob_attack_club_jetpack_2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 55
+        width: 278
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 81.5}
+        - {x: -55, y: 81.5}
+        - {x: -94, y: 67.5}
+        - {x: -120, y: -20.5}
+        - {x: -139, y: -56.5}
+        - {x: -139, y: -81.5}
+        - {x: 15, y: -81.5}
+        - {x: 34, y: -78.5}
+        - {x: 139, y: -20.5}
+        - {x: 139, y: 27.5}
+        - {x: 97, y: 56.5}
+    - name: Bob_attack_club_jetpack_3
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 56
+        width: 200
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 79}
+        - {x: -100, y: -20}
+        - {x: -82, y: -79}
+        - {x: 10, y: -79}
+        - {x: 100, y: -16}
+        - {x: 100, y: 66}
+        - {x: 33, y: 79}
+    - name: Bob_attack_club_jetpack_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 54
+        width: 231
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -48.5}
+        - {x: 74.5, y: -30.5}
+        - {x: 101.5, y: -6.5}
+        - {x: 98.5, y: -4.5}
+        - {x: 103.5, y: 0.5}
+        - {x: 107.5, y: 9.5}
+        - {x: 108.5, y: 12.5}
+        - {x: 108.5, y: 6.5}
+        - {x: 101.5, y: -1.5}
+        - {x: 101.5, y: -4.5}
+        - {x: 104.5, y: -7.5}
+        - {x: 115.5, y: 4.5}
+        - {x: 115.5, y: 22.5}
+        - {x: 99.5, y: 33.5}
+        - {x: 22.5, y: 79.5}
+        - {x: -62.5, y: 79.5}
+        - {x: -98.5, y: 38.5}
+        - {x: -115.5, y: -10.5}
+        - {x: -115.5, y: -64.5}
+        - {x: -99.5, y: -79.5}
+        - {x: 1.5, y: -79.5}
+        - {x: 24.5, y: -60.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 32.5, y: -45.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

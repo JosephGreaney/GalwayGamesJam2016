@@ -12,11 +12,13 @@ public class Robot : Enemy {
         movespeed = 1f;
         fireRange = 20f;
         attackTime = 1f;
+        health = 1;
     }
 	
 	// Update is called once per frame
-	new void Update () {
+	new public void Update () {
         //Search for player
+        base.Update();
         if (playerSeen)
         {
             //moves the enemy towards the player.

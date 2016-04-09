@@ -22,8 +22,9 @@ public class Enemy : Entity {
     }
 	
 	// Update is called once per frame
-	protected void Update ()
+	new public void Update ()
     {
+        base.Update();
         //Search for player
         if (playerSeen)
         {

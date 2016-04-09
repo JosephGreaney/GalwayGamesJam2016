@@ -25,6 +25,8 @@ public class Entity : MonoBehaviour
     int standHash = Animator.StringToHash("Standing");
     int attackingHash = Animator.StringToHash("Attacking");
 
+    private GameObject player;
+
     protected EntityType type;
     public enum EntityType
     {
@@ -33,6 +35,7 @@ public class Entity : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         id = ID++;
         anim = GetComponent<Animator>();
     }
@@ -40,20 +43,34 @@ public class Entity : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-        //Check if health is 0
-        if (health == 0)
+        //Check if health is less than 0 or 0
+        if (health <= 0)
         {
             if (type == EntityType.PLAYER)
             {
                 //Kill player
+                Debug.Log("Loaded");
                 GameManager.instance.PlayerDeath();
             }
             else
-            {
+            { 
+                /*if (type == EntityType.CAVEMAN)
+                {
+                    player.SendMessage("ChangeWeapon", 1);
+                }
+                else if (type == EntityType.KNIGHT)
+                {
+                    player.SendMessage("ChangeWeapon", 2);
+                    player.SendMessage("ChangeGear", "HELMET");
+                }
+                else if(type == EntityType.ROBOT)
+                {
+                    player.SendMessage("ChangeWeapon", 3);
+                    player.SendMessage("ChangeGear", "JETPACK");
+                }*/
                 //Kill enemy
 
                 //Show death animation
-
                 //Destroy this gameObject
                 Destroy(gameObject);
             }
@@ -138,6 +155,5 @@ public class Entity : MonoBehaviour
             StartCoroutine("HitCooldown");
             health--;
         }
-        Debug.Log("Hit" + health);
     }
 }

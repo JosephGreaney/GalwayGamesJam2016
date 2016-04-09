@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 8975057c4d5949a4591436e3e819f178
+timeCreated: 1459627136
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_jumping_club_0
+    21300002: Bob_jumping_club_1
+    21300004: Bob_jumping_club_2
+    21300006: Bob_jumping_club_3
+    21300008: Bob_jumping_club_4
+    21300010: Bob_jumping_club_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_jumping_club_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 60
+        width: 194
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 92.5}
+        - {x: -97, y: -21.5}
+        - {x: -97, y: -92.5}
+        - {x: 54, y: -92.5}
+        - {x: 97, y: -20.5}
+        - {x: 97, y: 89.5}
+        - {x: 96, y: 92.5}
+    - name: Bob_jumping_club_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 34
+        width: 180
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 105.5}
+        - {x: -90, y: 37.5}
+        - {x: -90, y: -105.5}
+        - {x: -34, y: -105.5}
+        - {x: 78, y: -86.5}
+        - {x: 90, y: -44.5}
+        - {x: 90, y: 102.5}
+        - {x: 87, y: 105.5}
+      - - {x: 70, y: 2.5}
+        - {x: 70, y: -3.5}
+        - {x: 72, y: -4.5}
+        - {x: 73, y: -4.5}
+        - {x: 76, y: -3.5}
+        - {x: 76, y: 0.5}
+        - {x: 75, y: 2.5}
+    - name: Bob_jumping_club_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 8
+        width: 167
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 119}
+        - {x: -83.5, y: -18}
+        - {x: -83.5, y: -118}
+        - {x: -80.5, y: -119}
+        - {x: -34.5, y: -119}
+        - {x: 83.5, y: -63}
+        - {x: 83.5, y: 101}
+        - {x: 68.5, y: 119}
+      - - {x: 66.5, y: 19}
+        - {x: 63.5, y: 16}
+        - {x: 63.5, y: 15}
+        - {x: 66.5, y: 12}
+        - {x: 68.5, y: 12}
+        - {x: 71.5, y: 15}
+        - {x: 71.5, y: 16}
+        - {x: 68.5, y: 19}
+    - name: Bob_jumping_club_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 73
+        width: 205
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 85.5}
+        - {x: -102.5, y: 30.5}
+        - {x: -102.5, y: -77.5}
+        - {x: -44.5, y: -67.5}
+        - {x: 16.5, y: -85.5}
+        - {x: 101.5, y: -85.5}
+        - {x: 102.5, y: -81.5}
+        - {x: 102.5, y: 85.5}
+    - name: Bob_jumping_club_4
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 74
+        width: 213
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 84.5}
+        - {x: -106.5, y: 24.5}
+        - {x: -106.5, y: -40.5}
+        - {x: 18.5, y: -84.5}
+        - {x: 88.5, y: -84.5}
+        - {x: 100.5, y: -67.5}
+        - {x: 106.5, y: -54.5}
+        - {x: 106.5, y: 84.5}
+    - name: Bob_jumping_club_5
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 86
+        width: 210
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 78}
+        - {x: -105, y: 69}
+        - {x: -105, y: 0}
+        - {x: 5, y: -78}
+        - {x: 103, y: -78}
+        - {x: 105, y: -70}
+        - {x: 105, y: 70}
+        - {x: 95, y: 78}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

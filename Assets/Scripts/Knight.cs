@@ -11,6 +11,7 @@ public class Knight : Enemy {
         movespeed = 4f;
         fireRange = 1.2f;
         attackTime = 1.2f;
+        health = 1;
     }
 	
 	// Update is called once per frame

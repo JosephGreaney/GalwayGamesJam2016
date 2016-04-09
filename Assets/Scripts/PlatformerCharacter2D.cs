@@ -14,6 +14,28 @@ public class PlatformerCharacter2D : Entity
     [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
     [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
     [SerializeField] private float m_StepInterval;
+
+    //Joe's code start here
+    public Projectile projectile;
+    public WeaponType weapon;
+    public enum WeaponType
+    {
+        CLUB, SHIELD, GUN
+    };
+
+    public GearType gear;
+    public enum GearType
+    {
+        HELMET, JETPACK, NO_GEAR
+    }
+    //code end here
+
+    private enum AnimationIndex
+    {
+        CLUB, CLUB_HELMET, CLUB_JETPACK,
+        RAYGUN, RAYGUN_HELMET, RAYGUN_JETPACK,
+        SHIELD, SHIELD_HELMET, SHIELD_JETPACK
+    };
     public float zoneDistance = 500;    // The distance between each zone in the level
 
     private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
@@ -27,22 +49,40 @@ public class PlatformerCharacter2D : Entity
     private AudioSource m_AudioSource;
 
     private Rigidbody2D m_Rigidbody2D;
-    public RuntimeAnimatorController[] animator;
+    public RuntimeAnimatorController[] animatorControllers;
+    public Sprite[] standingSprites;
+    public Animator animator;
+    public SpriteRenderer spriteRend;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
     private int currZone = 1;           // The current zone that the player is in
 
     private void Awake()
     {
+        weapon = WeaponType.GUN;
+        gear = GearType.NO_GEAR;
         // Setting up references.
-       // animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
+        spriteRend = GetComponent<SpriteRenderer>();
+        animatorControllers = Resources.LoadAll<RuntimeAnimatorController>("Graphics/Animations/Controllers");
+        standingSprites = Resources.LoadAll<Sprite>("Graphics/Animations/StaticSprites/Standing");
+        //a = Resources.
         m_GroundCheck = transform.Find("GroundCheck");
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         type = EntityType.PLAYER;
         m_AudioSource = GetComponent<AudioSource>();
-        //animator.runtimeAnimatorController;
+        for (int i = 0; i < standingSprites.Length; i++) {
+           // print("animator controllers: " + standingSprites[i]);
+        }
+        changeAnimation(AnimationIndex.RAYGUN_JETPACK);
     }
 
+    private void changeAnimation(AnimationIndex index)
+    {
+        animator.runtimeAnimatorController = animatorControllers[(int)index];
+        spriteRend.sprite = standingSprites[(int)index];
+        print(spriteRend.sprite.name);
+    }
     private void FixedUpdate()
     {
         m_Grounded = false;
@@ -132,17 +172,17 @@ public class PlatformerCharacter2D : Entity
             int warpTo = destination - currZone;
             // Where the player will be warped to.
             Vector3 targetDest = new Vector3(transform.position.x, (transform.position.y + (warpTo * zoneDistance)), transform.position.z);
-
+            Vector3 warpLoc = new Vector3(-666, -666, 0);
             // Check if the destination is unoccupied
             if (!CheckIfOccupied(targetDest))
             {
                 // If unoccupied move to that position
-                gameObject.transform.position = targetDest;
-                currZone = destination;
+                gameObject.transform.position = warpLoc;
                 warpCooldown = true;
                 m_AudioSource.clip = m_FootstepSounds[2];
                 m_AudioSource.PlayOneShot(m_AudioSource.clip);
                 StartCoroutine("WarpCooldown");
+                StartCoroutine(WarpZone(targetDest, destination));
             }
             else
             {
@@ -152,6 +192,13 @@ public class PlatformerCharacter2D : Entity
             }
         }
        
+    }
+
+    IEnumerator WarpZone(Vector3 targetDest, int destination)
+    {
+        yield return new WaitForSeconds(0.5f);
+        gameObject.transform.position = targetDest;
+        currZone = destination;
     }
 
     IEnumerator WarpCooldown()
@@ -205,8 +252,39 @@ public class PlatformerCharacter2D : Entity
 
     public void Attack(bool m_Attack)
     {
-        if(m_Attack && !attacking)
+        if (m_Attack && !attacking)
         {
+            int dir;
+
+            if (weapon == WeaponType.CLUB)
+            {
+                if (m_FacingRight)
+                    dir = 1;
+                else
+                    dir = -1;
+
+                Vector2 pointA = new Vector2((transform.position.x + (dir * 0.5f)), (transform.position.y - 1));
+                Vector2 pointB = new Vector2((transform.position.x), (transform.position.y + 1));
+                Collider2D[] colliders = Physics2D.OverlapAreaAll(pointA, pointB);
+                //Check if the player has been collided with
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    if (colliders[i].gameObject.tag == "Enemy")
+                    {
+                        float distance = Mathf.Abs(transform.position.x - colliders[i].transform.position.x);
+
+                        if (distance < 2f)
+                            colliders[i].gameObject.SendMessage("GetHit");
+                    }
+                }
+            }
+            else if (weapon == WeaponType.GUN)
+            {
+                Vector3 source = transform.Find("ShotSource").position;
+                dir = m_FacingRight ? 1 : -1;
+                Projectile proj = (Projectile)Instantiate(projectile, source, Quaternion.identity);
+                proj.m_RigidBody2D.AddForce(new Vector3((dir * 0.4f), 0, 0));
+            }
             base.Attack();
             m_AudioSource.clip = m_FootstepSounds[4];
             m_AudioSource.PlayOneShot(m_AudioSource.clip);

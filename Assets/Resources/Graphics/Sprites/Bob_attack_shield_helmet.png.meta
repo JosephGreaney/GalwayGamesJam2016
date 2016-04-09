@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: 2b4d981a1e250224c82aac3d3e7aff77
+timeCreated: 1459688289
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_attack_shield_helmet_0
+    21300002: Bob_attack_shield_helmet_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_attack_shield_helmet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 28
+        width: 140
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 82.5}
+        - {x: -47, y: 72.5}
+        - {x: -69, y: 47.5}
+        - {x: -70, y: 36.5}
+        - {x: -70, y: -53.5}
+        - {x: -66, y: -82.5}
+        - {x: 70, y: -82.5}
+        - {x: 70, y: 82.5}
+    - name: Bob_attack_shield_helmet_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 28
+        width: 222
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: 43.5}
+        - {x: 87, y: 61.5}
+        - {x: 54, y: 80.5}
+        - {x: -22, y: 80.5}
+        - {x: -82, y: 73.5}
+        - {x: -105, y: 6.5}
+        - {x: -111, y: -0.5}
+        - {x: -111, y: -80.5}
+        - {x: 87, y: -80.5}
+        - {x: 95, y: -76.5}
+        - {x: 111, y: -52.5}
+        - {x: 111, y: 19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

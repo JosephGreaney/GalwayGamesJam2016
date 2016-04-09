@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 51262019798c1dd44aa0abfece7328e4
+timeCreated: 1459688259
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_attack_club_helmet_0
+    21300002: Bob_attack_club_helmet_1
+    21300004: Bob_attack_club_helmet_2
+    21300006: Bob_attack_club_helmet_3
+    21300008: Bob_attack_club_helmet_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_attack_club_helmet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 35
+        width: 210
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 94}
+        - {x: -105, y: -34}
+        - {x: -105, y: -94}
+        - {x: 84, y: -94}
+        - {x: 105, y: -25}
+        - {x: 105, y: 94}
+    - name: Bob_attack_club_helmet_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 48
+        width: 163
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 89.5}
+        - {x: -73.5, y: -12.5}
+        - {x: -81.5, y: -48.5}
+        - {x: -81.5, y: -89.5}
+        - {x: 72.5, y: -89.5}
+        - {x: 81.5, y: -80.5}
+        - {x: 81.5, y: 67.5}
+        - {x: 69.5, y: 89.5}
+    - name: Bob_attack_club_helmet_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 55
+        width: 278
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 96}
+        - {x: -76, y: 91}
+        - {x: -110, y: 41}
+        - {x: -94, y: -24}
+        - {x: -139, y: -70}
+        - {x: -139, y: -96}
+        - {x: 46, y: -96}
+        - {x: 139, y: -38}
+        - {x: 139, y: 64}
+        - {x: 97, y: 96}
+    - name: Bob_attack_club_helmet_3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 56
+        width: 212
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: 31}
+        - {x: 43, y: 87}
+        - {x: -106, y: 87}
+        - {x: -106, y: -77}
+        - {x: -103, y: -87}
+        - {x: 4, y: -87}
+        - {x: 72, y: -55}
+        - {x: 106, y: -18}
+        - {x: 106, y: 29}
+    - name: Bob_attack_club_helmet_4
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 54
+        width: 231
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -54}
+        - {x: 74.5, y: -36}
+        - {x: 101.5, y: -12}
+        - {x: 98.5, y: -10}
+        - {x: 103.5, y: -5}
+        - {x: 107.5, y: 4}
+        - {x: 108.5, y: 7}
+        - {x: 108.5, y: 1}
+        - {x: 101.5, y: -7}
+        - {x: 101.5, y: -10}
+        - {x: 104.5, y: -13}
+        - {x: 115.5, y: -5}
+        - {x: 115.5, y: 26}
+        - {x: 110.5, y: 46}
+        - {x: 38.5, y: 85}
+        - {x: -80.5, y: 85}
+        - {x: -115.5, y: 23}
+        - {x: -115.5, y: -85}
+        - {x: 10.5, y: -85}
+        - {x: 24.5, y: -66}
+        - {x: 23.5, y: -37}
+        - {x: 32.5, y: -51}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

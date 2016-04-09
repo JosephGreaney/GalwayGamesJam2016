@@ -1,0 +1,80 @@
+fileFormatVersion: 2
+guid: 2449706dc4cc359459fdf4d8e5d2b84c
+timeCreated: 1459688306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bob_hit_club_helmet_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bob_hit_club_helmet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 14
+        width: 215
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5, y: 90.5}
+        - {x: 29.5, y: 90.5}
+        - {x: 10.5, y: 86.5}
+        - {x: -17.5, y: 43.5}
+        - {x: -13.5, y: -18.5}
+        - {x: -89.5, y: -23.5}
+        - {x: -107.5, y: -40.5}
+        - {x: -107.5, y: -90.5}
+        - {x: 101.5, y: -90.5}
+        - {x: 107.5, y: -60.5}
+        - {x: 107.5, y: 89.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
